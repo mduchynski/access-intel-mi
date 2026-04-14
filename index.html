@@ -25,6 +25,7 @@
 const { useState, useEffect, useMemo } = React;
 
 const API = "http://localhost:8000";
+const JSON_FILE = "./current.json";  // GitHub Pages static file
 const RADIUS_OPTIONS = [5, 10];
 
 /* ── Zip code → lat/lng lookup for Georgia zip codes ──
@@ -161,22 +162,73 @@ function App() {
   const [lastFetch, setLastFetch] = useState(null);
   const [activeTab, setActiveTab] = useState("All");
   const [radius, setRadius] = useState(10);
+  const [trendsData, setTrendsData] = useState(null);
+  const [trendView, setTrendView] = useState("perCenter"); // perCenter | bySystem | market
+  const [waitAlerts, setWaitAlerts] = useState(null);
 
   useEffect(() => {
     async function loadData() {
       setLoading(true);
       setError(null);
       try {
-        const healthResp = await fetch(`${API}/api/health`);
-        const health = await healthResp.json();
-        setApiHealth(health);
-        const availResp = await fetch(`${API}/api/availability`);
-        const avail = await availResp.json();
+        let avail = null;
+        try {
+          const healthResp = await fetch(`${API}/api/health`, { signal: AbortSignal.timeout(3000) });
+          const health = await healthResp.json();
+          setApiHealth(health);
+          const availResp = await fetch(`${API}/api/availability`);
+          avail = await availResp.json();
+        } catch (apiErr) {
+          const jsonResp = await fetch(JSON_FILE + "?t=" + Date.now());
+          const raw = await jsonResp.json();
+          const allLocs = [];
+          for (const [sysId, sysData] of Object.entries(raw.systems || {})) {
+            for (const loc of (sysData.locations || [])) {
+              loc.system = sysId;
+              loc.systemName = sysData.name || sysId;
+              allLocs.push(loc);
+            }
+          }
+          avail = { lastUpdated: raw.lastUpdated, totalLocations: allLocs.length, totalSlots: allLocs.reduce((s,l) => s + (l.sameDaySlots||0), 0), locations: allLocs };
+          setApiHealth({ status: "static" });
+        }
         if (avail && avail.locations) {
           avail.locations = avail.locations.map(geocodeFromAddress);
         }
         setLiveData(avail);
         setLastFetch(new Date());
+        // Load trends data (optional — works without it)
+        try {
+          const trendsResp = await fetch("./trends.json?t=" + Date.now());
+          if (trendsResp.ok) {
+            const trends = await trendsResp.json();
+            setTrendsData(trends);
+          }
+        } catch (trendErr) {
+          try {
+            const trendsResp2 = await fetch("./data/trends.json?t=" + Date.now());
+            if (trendsResp2.ok) {
+              const trends = await trendsResp2.json();
+              setTrendsData(trends);
+            }
+          } catch (_) { /* no trends available yet */ }
+        }
+        // Load wait alerts (optional)
+        try {
+          const alertsResp = await fetch("./wait_alerts.json?t=" + Date.now());
+          if (alertsResp.ok) {
+            const alerts = await alertsResp.json();
+            setWaitAlerts(alerts);
+          }
+        } catch (aerr) {
+          try {
+            const alertsResp2 = await fetch("./data/wait_alerts.json?t=" + Date.now());
+            if (alertsResp2.ok) {
+              const alerts = await alertsResp2.json();
+              setWaitAlerts(alerts);
+            }
+          } catch (_) { /* no alerts yet */ }
+        }
       } catch (err) {
         setError(`Could not connect to API at ${API}. Make sure server.py is running.`);
       }
@@ -269,6 +321,8 @@ function App() {
     { key: "All", label: "All", count: allLocations.length },
     { key: "UC", label: "Urgent Care", count: allLocations.filter(l => l.locType === "UC").length },
     { key: "PCP", label: "Primary Care", count: allLocations.filter(l => l.locType === "PCP").length },
+    { key: "Trends", label: "📈 Trends", count: trendsData ? (trendsData.snapshots || []).length : 0 },
+    { key: "WaitTimes", label: "⚠️ Wait Times", count: waitAlerts ? (waitAlerts.entries || []).length : 0 },
   ];
 
   return (
@@ -279,7 +333,7 @@ function App() {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
-                <span style={{ width: 7, height: 7, borderRadius: "50%", background: apiHealth && apiHealth.status === "healthy" ? "#A5D6A7" : "#FF9800", animation: "pulse 2s infinite" }} />
+                <span style={{ width: 7, height: 7, borderRadius: "50%", background: apiHealth && (apiHealth.status === "healthy" || apiHealth.status === "static" || apiHealth.status === "ok") ? "#A5D6A7" : "#FF9800", animation: "pulse 2s infinite" }} />
                 <span style={{ fontSize: 10, fontWeight: 600, letterSpacing: "0.1em", color: "#A5D6A7", fontFamily: "'JetBrains Mono', monospace" }}>
                   {loading ? "CONNECTING..." : error ? "API OFFLINE" : `LIVE — ${allLocations.length} LOCATIONS`}
                 </span>
@@ -363,7 +417,7 @@ function App() {
         )}
 
         {/* STAT CARDS */}
-        {!loading && !error && (
+        {!loading && !error && activeTab !== "Trends" && activeTab !== "WaitTimes" && (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 10, marginBottom: 14 }}>
             {[
               { l: selectedLocation ? `Within ${radius} mi` : "Locations", v: stats.total, c: "#2E7D32" },
@@ -381,8 +435,307 @@ function App() {
           </div>
         )}
 
+        {/* TRENDS VIEW */}
+        {!loading && !error && activeTab === "Trends" && (
+          <div style={{ animation: "fadeIn .3s ease" }}>
+            {!trendsData || !(trendsData.snapshots || []).length ? (
+              <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", padding: 40, textAlign: "center" }}>
+                <div style={{ fontSize: 18, fontWeight: 700, color: "#212121", marginBottom: 8 }}>No Trend Data Yet</div>
+                <div style={{ fontSize: 13, color: "#757575", lineHeight: 1.8, maxWidth: 500, margin: "0 auto" }}>
+                  Run <code style={{ background: "#F5F5F5", padding: "2px 6px", borderRadius: 4, fontFamily: "'JetBrains Mono',monospace" }}>python save_daily_snapshot.py</code> once per day (ideally as part of your 7:30 AM scheduled run) to capture daily trends.
+                  Trend data will appear here once at least one day has been captured.
+                </div>
+              </div>
+            ) : (
+              <div>
+                {/* Trend view switcher */}
+                <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
+                  {[
+                    { k: "perCenter", l: "By UC Center" },
+                    { k: "bySystem", l: "By Health System" },
+                    { k: "market", l: "Market Total" },
+                  ].map(v => (
+                    <button key={v.k} onClick={() => setTrendView(v.k)}
+                      style={{ padding: "6px 14px", borderRadius: 20, fontSize: 12, fontWeight: 600, cursor: "pointer",
+                        border: trendView === v.k ? "1px solid #2E7D32" : "1px solid #E0E0E0",
+                        background: trendView === v.k ? "#2E7D32" : "#fff",
+                        color: trendView === v.k ? "#fff" : "#757575" }}>
+                      {v.l}
+                    </button>
+                  ))}
+                  <div style={{ marginLeft: "auto", fontSize: 11, color: "#9E9E9E", fontFamily: "'JetBrains Mono',monospace", alignSelf: "center" }}>
+                    {(trendsData.snapshots || []).length} days tracked
+                  </div>
+                </div>
+
+                {/* PER-CENTER VIEW */}
+                {trendView === "perCenter" && (
+                  <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", overflow: "hidden" }}>
+                    <div style={{ padding: "12px 16px", borderBottom: "1px solid #F0F0F0" }}>
+                      <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, fontFamily: "'Space Grotesk', sans-serif" }}>
+                        PCP Same-Day Slots Within 10mi of Each UC Center
+                      </h3>
+                      <p style={{ margin: "4px 0 0", fontSize: 11, color: "#757575" }}>Daily total of primary care appointments available near each urgent care location</p>
+                    </div>
+                    {(() => {
+                      const snapshots = trendsData.snapshots || [];
+                      // Get all unique UC centers across all snapshots
+                      const ucCenters = {};
+                      snapshots.forEach(snap => {
+                        (snap.perCenter || []).forEach(c => {
+                          if (!ucCenters[c.ucName]) {
+                            ucCenters[c.ucName] = { name: c.ucName, area: c.ucArea, system: c.ucSystem, days: {} };
+                          }
+                          ucCenters[c.ucName].days[snap.date] = { slots10: c.pcpSlots10mi, slots5: c.pcpSlots5mi };
+                        });
+                      });
+                      const centerList = Object.values(ucCenters).sort((a,b) => a.name.localeCompare(b.name));
+                      const dates = snapshots.map(s => s.date).sort();
+                      const recentDates = dates.slice(-14); // Last 14 days
+                      
+                      return (
+                        <div style={{ overflow: "auto" }}>
+                          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
+                            <thead>
+                              <tr style={{ background: "#FAFAFA", borderBottom: "1px solid #E0E0E0" }}>
+                                <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 9, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace", position: "sticky", left: 0, background: "#FAFAFA", minWidth: 220 }}>UC Center</th>
+                                {recentDates.map(d => {
+                                  const dd = new Date(d + "T12:00:00");
+                                  const label = `${dd.getMonth()+1}/${dd.getDate()}`;
+                                  return <th key={d} style={{ padding: "8px 6px", textAlign: "center", fontSize: 9, fontWeight: 600, color: "#9E9E9E", fontFamily: "'JetBrains Mono',monospace", minWidth: 48 }}>{label}</th>;
+                                })}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {centerList.map((c, i) => (
+                                <tr key={c.name} style={{ borderBottom: "1px solid #F5F5F5", background: i % 2 === 0 ? "#fff" : "#FCFCFC" }}>
+                                  <td style={{ padding: "6px 12px", fontSize: 12, fontWeight: 600, color: "#212121", position: "sticky", left: 0, background: i % 2 === 0 ? "#fff" : "#FCFCFC" }}>
+                                    <div>{c.name}</div>
+                                    <div style={{ fontSize: 9, color: "#9E9E9E", marginTop: 1 }}>{c.area}</div>
+                                  </td>
+                                  {recentDates.map(d => {
+                                    const v = c.days[d];
+                                    const slots = v ? v.slots10 : null;
+                                    const bg = slots === null ? "transparent" : slots === 0 ? "#FFEBEE" : slots < 10 ? "#FFF3E0" : "#E8F5E9";
+                                    const color = slots === null ? "#BDBDBD" : slots === 0 ? "#C62828" : slots < 10 ? "#E65100" : "#2E7D32";
+                                    return (
+                                      <td key={d} style={{ padding: "4px 6px", textAlign: "center", fontSize: 11, fontWeight: 700, fontFamily: "'JetBrains Mono',monospace", background: bg, color: color }}>
+                                        {slots === null ? "—" : slots}
+                                      </td>
+                                    );
+                                  })}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
+
+                {/* BY-SYSTEM VIEW */}
+                {trendView === "bySystem" && (
+                  <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", overflow: "hidden" }}>
+                    <div style={{ padding: "12px 16px", borderBottom: "1px solid #F0F0F0" }}>
+                      <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, fontFamily: "'Space Grotesk', sans-serif" }}>
+                        Same-Day Slots by Health System
+                      </h3>
+                      <p style={{ margin: "4px 0 0", fontSize: 11, color: "#757575" }}>Total same-day appointments available per system each day</p>
+                    </div>
+                    {(() => {
+                      const snapshots = trendsData.snapshots || [];
+                      const systems = {};
+                      snapshots.forEach(snap => {
+                        Object.entries(snap.bySystem || {}).forEach(([sysName, sysData]) => {
+                          if (!systems[sysName]) systems[sysName] = { name: sysName, days: {} };
+                          systems[sysName].days[snap.date] = sysData;
+                        });
+                      });
+                      const sysList = Object.values(systems).sort((a,b) => a.name.localeCompare(b.name));
+                      const dates = snapshots.map(s => s.date).sort();
+                      const recentDates = dates.slice(-14);
+                      
+                      return (
+                        <div style={{ overflow: "auto" }}>
+                          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
+                            <thead>
+                              <tr style={{ background: "#FAFAFA", borderBottom: "1px solid #E0E0E0" }}>
+                                <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 9, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace", position: "sticky", left: 0, background: "#FAFAFA", minWidth: 220 }}>Health System</th>
+                                {recentDates.map(d => {
+                                  const dd = new Date(d + "T12:00:00");
+                                  return <th key={d} style={{ padding: "8px 6px", textAlign: "center", fontSize: 9, fontWeight: 600, color: "#9E9E9E", fontFamily: "'JetBrains Mono',monospace", minWidth: 48 }}>{dd.getMonth()+1}/{dd.getDate()}</th>;
+                                })}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {sysList.map((s, i) => (
+                                <tr key={s.name} style={{ borderBottom: "1px solid #F5F5F5", background: i % 2 === 0 ? "#fff" : "#FCFCFC" }}>
+                                  <td style={{ padding: "8px 12px", fontSize: 12, fontWeight: 600, color: "#212121", position: "sticky", left: 0, background: i % 2 === 0 ? "#fff" : "#FCFCFC" }}>
+                                    {s.name}
+                                  </td>
+                                  {recentDates.map(d => {
+                                    const v = s.days[d];
+                                    const slots = v ? v.sameDaySlots : null;
+                                    const bg = slots === null ? "transparent" : slots === 0 ? "#FFEBEE" : "#E8F5E9";
+                                    const color = slots === null ? "#BDBDBD" : slots === 0 ? "#C62828" : "#2E7D32";
+                                    return (
+                                      <td key={d} style={{ padding: "6px", textAlign: "center", fontSize: 11, fontWeight: 700, fontFamily: "'JetBrains Mono',monospace", background: bg, color: color }}>
+                                        {slots === null ? "—" : slots}
+                                      </td>
+                                    );
+                                  })}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
+
+                {/* MARKET TOTAL VIEW */}
+                {trendView === "market" && (
+                  <div>
+                    <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", padding: "16px 20px", marginBottom: 12 }}>
+                      <h3 style={{ margin: "0 0 12px", fontSize: 14, fontWeight: 700, fontFamily: "'Space Grotesk', sans-serif" }}>
+                        Market-Wide Daily Totals
+                      </h3>
+                      {(() => {
+                        const snapshots = (trendsData.snapshots || []).slice().sort((a,b) => a.date.localeCompare(b.date));
+                        const recent = snapshots.slice(-30);
+                        
+                        return (
+                          <div style={{ overflow: "auto" }}>
+                            <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
+                              <thead>
+                                <tr style={{ background: "#FAFAFA" }}>
+                                  <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Date</th>
+                                  <th style={{ padding: "8px 12px", textAlign: "right", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>UC Same-Day</th>
+                                  <th style={{ padding: "8px 12px", textAlign: "right", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>PCP Same-Day</th>
+                                  <th style={{ padding: "8px 12px", textAlign: "right", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>PCP Next-Day</th>
+                                  <th style={{ padding: "8px 12px", textAlign: "right", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>PCP w/ Avail</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {recent.slice().reverse().map((s, i) => {
+                                  const m = s.marketTotals || {};
+                                  const dd = new Date(s.date + "T12:00:00");
+                                  const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][dd.getDay()];
+                                  return (
+                                    <tr key={s.date} style={{ borderBottom: "1px solid #F5F5F5", background: i % 2 === 0 ? "#fff" : "#FCFCFC" }}>
+                                      <td style={{ padding: "8px 12px", fontSize: 12, fontWeight: 600 }}>
+                                        {weekday} {dd.getMonth()+1}/{dd.getDate()}
+                                        <span style={{ fontSize: 10, color: "#9E9E9E", marginLeft: 6 }}>{s.date}</span>
+                                      </td>
+                                      <td style={{ padding: "8px 12px", textAlign: "right", fontSize: 13, fontWeight: 700, color: "#1565C0", fontFamily: "'JetBrains Mono',monospace" }}>{m.totalUCSameDay || 0}</td>
+                                      <td style={{ padding: "8px 12px", textAlign: "right", fontSize: 13, fontWeight: 700, color: "#7B1FA2", fontFamily: "'JetBrains Mono',monospace" }}>{m.totalPCPSameDay || 0}</td>
+                                      <td style={{ padding: "8px 12px", textAlign: "right", fontSize: 13, fontWeight: 600, color: "#757575", fontFamily: "'JetBrains Mono',monospace" }}>{m.totalPCPNextDay || 0}</td>
+                                      <td style={{ padding: "8px 12px", textAlign: "right", fontSize: 13, fontWeight: 600, color: "#2E7D32", fontFamily: "'JetBrains Mono',monospace" }}>{m.pcpWithAvailability || 0} / {m.pcpLocationCount || 0}</td>
+                                    </tr>
+                                  );
+                                })}
+                              </tbody>
+                            </table>
+                          </div>
+                        );
+                      })()}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* WAIT TIMES VIEW */}
+        {!loading && !error && activeTab === "WaitTimes" && (
+          <div style={{ animation: "fadeIn .3s ease" }}>
+            {!waitAlerts || !(waitAlerts.entries || []).length ? (
+              <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", padding: 40, textAlign: "center" }}>
+                <div style={{ fontSize: 18, fontWeight: 700, color: "#212121", marginBottom: 8 }}>No Wait Time Alerts Yet</div>
+                <div style={{ fontSize: 13, color: "#757575", lineHeight: 1.8, maxWidth: 500, margin: "0 auto" }}>
+                  Run <code style={{ background: "#F5F5F5", padding: "2px 6px", borderRadius: 4, fontFamily: "'JetBrains Mono',monospace" }}>python save_wait_time_alerts.py</code> after each scrape
+                  to track UC locations where the next available slot is more than 50 minutes from scrape time.
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", overflow: "hidden" }}>
+                  <div style={{ padding: "12px 16px", borderBottom: "1px solid #F0F0F0", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
+                    <div>
+                      <h3 style={{ margin: 0, fontSize: 14, fontWeight: 700, fontFamily: "'Space Grotesk', sans-serif" }}>
+                        MI UC Long-Wait Alerts
+                      </h3>
+                      <p style={{ margin: "4px 0 0", fontSize: 11, color: "#757575" }}>
+                        MI UC centers where next available was &gt;= {waitAlerts.threshold_minutes || 50} minutes from scrape time
+                      </p>
+                    </div>
+                    <div style={{ fontSize: 11, color: "#9E9E9E", fontFamily: "'JetBrains Mono',monospace" }}>
+                      {(waitAlerts.entries || []).length} alerts logged
+                    </div>
+                  </div>
+                  {(() => {
+                    const entries = (waitAlerts.entries || []).slice().sort((a,b) => (b.scrapeTime || "").localeCompare(a.scrapeTime || ""));
+                    
+                    return (
+                      <div style={{ overflow: "auto" }}>
+                        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
+                          <thead>
+                            <tr style={{ background: "#FAFAFA", borderBottom: "1px solid #E0E0E0" }}>
+                              <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Scrape Date</th>
+                              <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Scrape Time</th>
+                              <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Location</th>
+                              <th style={{ padding: "8px 12px", textAlign: "left", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Next Available</th>
+                              <th style={{ padding: "8px 12px", textAlign: "right", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Wait</th>
+                              <th style={{ padding: "8px 12px", textAlign: "right", fontSize: 10, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono',monospace" }}>Slots</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {entries.map((e, i) => {
+                              const dd = new Date(e.scrapeDate + "T12:00:00");
+                              const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][dd.getDay()];
+                              const dateDisplay = `${weekday} ${dd.getMonth()+1}/${dd.getDate()}`;
+                              const waitColor = e.minutesOut >= 180 ? "#C62828" : e.minutesOut >= 120 ? "#E65100" : "#F57F17";
+                              return (
+                                <tr key={i} style={{ borderBottom: "1px solid #F5F5F5", background: i % 2 === 0 ? "#fff" : "#FCFCFC" }}>
+                                  <td style={{ padding: "8px 12px", fontSize: 12, fontWeight: 600 }}>
+                                    {dateDisplay}
+                                    <span style={{ fontSize: 10, color: "#9E9E9E", marginLeft: 6 }}>{e.scrapeDate}</span>
+                                  </td>
+                                  <td style={{ padding: "8px 12px", fontSize: 12, fontFamily: "'JetBrains Mono',monospace", color: "#616161" }}>
+                                    {e.scrapeTimeDisplay}
+                                  </td>
+                                  <td style={{ padding: "8px 12px", fontSize: 12, fontWeight: 600, color: "#212121" }}>
+                                    <div>{e.locationName}</div>
+                                    {e.address && <div style={{ fontSize: 10, color: "#9E9E9E", marginTop: 1 }}>{e.address}</div>}
+                                  </td>
+                                  <td style={{ padding: "8px 12px", fontSize: 13, fontWeight: 700, color: "#1B5E20", fontFamily: "'JetBrains Mono',monospace" }}>
+                                    {e.nextAvailableTime}
+                                  </td>
+                                  <td style={{ padding: "8px 12px", textAlign: "right", fontSize: 12, fontWeight: 700, color: waitColor, fontFamily: "'JetBrains Mono',monospace" }}>
+                                    {e.hoursOut}h
+                                  </td>
+                                  <td style={{ padding: "8px 12px", textAlign: "right", fontSize: 12, fontWeight: 600, color: "#616161", fontFamily: "'JetBrains Mono',monospace" }}>
+                                    {e.sameDaySlots}
+                                  </td>
+                                </tr>
+                              );
+                            })}
+                          </tbody>
+                        </table>
+                      </div>
+                    );
+                  })()}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* OVERVIEW TABLE */}
-        {!loading && !error && !selectedLocation && (
+        {!loading && !error && !selectedLocation && activeTab !== "Trends" && activeTab !== "WaitTimes" && (
           <div style={{ background: "#fff", borderRadius: 12, border: "1px solid #E0E0E0", overflow: "hidden", animation: "fadeIn .3s ease" }}>
             <div style={{ display: "grid", gridTemplateColumns: "38px 1fr 120px 50px 50px 140px 55px", padding: "8px 16px", background: "#FAFAFA", fontSize: 9, fontWeight: 600, color: "#9E9E9E", letterSpacing: ".05em", textTransform: "uppercase", fontFamily: "'JetBrains Mono', monospace" }}>
               <div>Type</div><div>Location</div><div>System</div><div>Today</div><div style={{color:"#1565C0"}}>Next</div><div>Next Available</div><div>Source</div>
@@ -408,7 +761,7 @@ function App() {
         )}
 
         {/* RADIUS VIEW */}
-        {!loading && !error && selectedLocation && (
+        {!loading && !error && selectedLocation && activeTab !== "Trends" && activeTab !== "WaitTimes" && (
           <div style={{ animation: "fadeIn .3s ease" }}>
             {/* Selected location card */}
             <div style={{ background: "#E8F5E9", borderRadius: 12, border: "1px solid #A5D6A7", padding: "12px 16px", marginBottom: 12 }}>
