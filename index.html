@@ -172,26 +172,19 @@ function App() {
       setError(null);
       try {
         let avail = null;
-        try {
-          const healthResp = await fetch(`${API}/api/health`, { signal: AbortSignal.timeout(3000) });
-          const health = await healthResp.json();
-          setApiHealth(health);
-          const availResp = await fetch(`${API}/api/availability`);
-          avail = await availResp.json();
-        } catch (apiErr) {
-          const jsonResp = await fetch(JSON_FILE + "?t=" + Date.now());
-          const raw = await jsonResp.json();
-          const allLocs = [];
-          for (const [sysId, sysData] of Object.entries(raw.systems || {})) {
-            for (const loc of (sysData.locations || [])) {
-              loc.system = sysId;
-              loc.systemName = sysData.name || sysId;
-              allLocs.push(loc);
-            }
+        // GitHub Pages mode — load directly from static JSON file
+        const jsonResp = await fetch(JSON_FILE + "?t=" + Date.now());
+        const raw = await jsonResp.json();
+        const allLocs = [];
+        for (const [sysId, sysData] of Object.entries(raw.systems || {})) {
+          for (const loc of (sysData.locations || [])) {
+            loc.system = sysId;
+            loc.systemName = sysData.name || sysId;
+            allLocs.push(loc);
           }
-          avail = { lastUpdated: raw.lastUpdated, totalLocations: allLocs.length, totalSlots: allLocs.reduce((s,l) => s + (l.sameDaySlots||0), 0), locations: allLocs };
-          setApiHealth({ status: "static" });
         }
+        avail = { lastUpdated: raw.lastUpdated, totalLocations: allLocs.length, totalSlots: allLocs.reduce((s,l) => s + (l.sameDaySlots||0), 0), locations: allLocs };
+        setApiHealth({ status: "static" });
         if (avail && avail.locations) {
           avail.locations = avail.locations.map(geocodeFromAddress);
         }
@@ -230,7 +223,7 @@ function App() {
           } catch (_) { /* no alerts yet */ }
         }
       } catch (err) {
-        setError(`Could not connect to API at ${API}. Make sure server.py is running.`);
+        setError(`Could not load data. Check that current.json exists.`);
       }
       setLoading(false);
     }
