@@ -5398,8 +5398,813 @@
         "ucWithAvailability": 10,
         "pcpWithAvailability": 0
       }
+    },
+    {
+      "date": "2026-04-21",
+      "timestamp": "2026-04-21T09:16:40.522052",
+      "market": "MI",
+      "perCenter": [
+        {
+          "ucId": "gh-68996",
+          "ucName": "GoHealth UC \u2014 Berkley",
+          "ucArea": "Berkley",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 45,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 11
+        },
+        {
+          "ucId": "gh-48139",
+          "ucName": "GoHealth UC \u2014 Bruce Township",
+          "ucArea": "Bruce Township",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 0,
+          "pcpCount5mi": 0,
+          "pcpCount10mi": 0
+        },
+        {
+          "ucId": "gh-10657",
+          "ucName": "GoHealth UC \u2014 Canton",
+          "ucArea": "Canton",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 17,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 14
+        },
+        {
+          "ucId": "gh-13980",
+          "ucName": "GoHealth UC \u2014 Chesterfield",
+          "ucArea": "Chesterfield",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 0,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 2
+        },
+        {
+          "ucId": "gh-26002",
+          "ucName": "GoHealth UC \u2014 Clinton Township",
+          "ucArea": "Clinton Township",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "gh-25577",
+          "ucName": "GoHealth UC \u2014 Commerce Township",
+          "ucArea": "Commerce Township",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 5,
+          "pcpSlots10mi": 43,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "gh-33837",
+          "ucName": "GoHealth UC \u2014 Dearborn Heights",
+          "ucArea": "Dearborn Heights",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 8,
+          "pcpSlots10mi": 14,
+          "pcpCount5mi": 12,
+          "pcpCount10mi": 25
+        },
+        {
+          "ucId": "gh-69520",
+          "ucName": "GoHealth UC \u2014 Fraser",
+          "ucArea": "Fraser",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 6,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 8
+        },
+        {
+          "ucId": "gh-51129",
+          "ucName": "GoHealth UC \u2014 Livonia",
+          "ucArea": "Livonia",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 14,
+          "pcpSlots10mi": 59,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "gh-82884",
+          "ucName": "GoHealth UC \u2014 Southfield",
+          "ucArea": "Southfield",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 59,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 23
+        },
+        {
+          "ucId": "gh-16379",
+          "ucName": "GoHealth UC \u2014 Southgate",
+          "ucArea": "Southgate",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 6,
+          "pcpSlots10mi": 25,
+          "pcpCount5mi": 7,
+          "pcpCount10mi": 16
+        },
+        {
+          "ucId": "gh-43359",
+          "ucName": "GoHealth UC \u2014 St. Clair Shores",
+          "ucArea": "St. Clair Shores",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 6,
+          "pcpSlots10mi": 23,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "gh-62844",
+          "ucName": "GoHealth UC \u2014 Taylor",
+          "ucArea": "Taylor",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 32,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "gh-61132",
+          "ucName": "GoHealth UC \u2014 West Bloomfield",
+          "ucArea": "West Bloomfield",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 19,
+          "pcpSlots10mi": 56,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 16
+        },
+        {
+          "ucId": "gh-27765",
+          "ucName": "GoHealth UC \u2014 Wonderland Village Livonia",
+          "ucArea": "Wonderland Village Livonia",
+          "ucSystem": "GoHealth / Henry Ford UC",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 60,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 32
+        },
+        {
+          "ucId": "fc-60225",
+          "ucName": "1st Choice UC \u2014 Bloomfield",
+          "ucArea": "Bloomfield",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 14,
+          "pcpSlots10mi": 36,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 12
+        },
+        {
+          "ucId": "fc-51362",
+          "ucName": "1st Choice UC \u2014 Clinton Township",
+          "ucArea": "Clinton Township",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "fc-39859",
+          "ucName": "1st Choice UC \u2014 Dearborn East",
+          "ucArea": "Dearborn East",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 14,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 19
+        },
+        {
+          "ucId": "fc-72595",
+          "ucName": "1st Choice UC \u2014 Dearborn West",
+          "ucArea": "Dearborn West",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 14,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 19
+        },
+        {
+          "ucId": "fc-51630",
+          "ucName": "1st Choice UC \u2014 Garden City",
+          "ucArea": "Garden City",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 32,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "fc-93096",
+          "ucName": "1st Choice UC \u2014 Livonia",
+          "ucArea": "Livonia",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 60,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 32
+        },
+        {
+          "ucId": "fc-70891",
+          "ucName": "1st Choice UC \u2014 Macomb",
+          "ucArea": "Macomb",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 0,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 3
+        },
+        {
+          "ucId": "fc-21594",
+          "ucName": "1st Choice UC \u2014 Oxford",
+          "ucArea": "Oxford",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 2,
+          "pcpSlots10mi": 2,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 2
+        },
+        {
+          "ucId": "fc-64574",
+          "ucName": "1st Choice UC \u2014 Rochester Hills",
+          "ucArea": "Rochester Hills",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 2,
+          "pcpSlots10mi": 19,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "fc-46358",
+          "ucName": "1st Choice UC \u2014 Romulus",
+          "ucArea": "Romulus",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 25,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 12
+        },
+        {
+          "ucId": "fc-51002",
+          "ucName": "1st Choice UC \u2014 Royal Oak",
+          "ucArea": "Royal Oak",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 2,
+          "pcpSlots10mi": 30,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 10
+        },
+        {
+          "ucId": "fc-89255",
+          "ucName": "1st Choice UC \u2014 Saint Clair Shores",
+          "ucArea": "Saint Clair Shores",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 6,
+          "pcpSlots10mi": 23,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "fc-31021",
+          "ucName": "1st Choice UC \u2014 Southfield",
+          "ucArea": "Southfield",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 59,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 23
+        },
+        {
+          "ucId": "fc-10465",
+          "ucName": "1st Choice UC \u2014 Taylor",
+          "ucArea": "Taylor",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 32,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "fc-39468",
+          "ucName": "1st Choice UC \u2014 Warren",
+          "ucArea": "Warren",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 17,
+          "pcpSlots10mi": 25,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 12
+        },
+        {
+          "ucId": "fc-2964",
+          "ucName": "1st Choice UC \u2014 Washington",
+          "ucArea": "Washington",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 2,
+          "pcpCount5mi": 0,
+          "pcpCount10mi": 2
+        },
+        {
+          "ucId": "fc-9431",
+          "ucName": "1st Choice UC \u2014 Waterford",
+          "ucArea": "Waterford",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 38,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "fc-31496",
+          "ucName": "1st Choice UC \u2014 Ypsilanti",
+          "ucArea": "Ypsilanti",
+          "ucSystem": "1st Choice Urgent Care",
+          "pcpSlots5mi": 3,
+          "pcpSlots10mi": 15,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 6
+        },
+        {
+          "ucId": "cuc-1",
+          "ucName": "Corewell UC \u2014 Rochester Hills",
+          "ucArea": "Rochester Hills",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 2,
+          "pcpSlots10mi": 19,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "cuc-2",
+          "ucName": "Corewell UC \u2014 Lake Orion",
+          "ucArea": "Lake Orion",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 2,
+          "pcpSlots10mi": 2,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 3
+        },
+        {
+          "ucId": "cuc-3",
+          "ucName": "Corewell UC \u2014 Troy Big Beaver",
+          "ucArea": "Troy Big Beaver",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 3,
+          "pcpSlots10mi": 35,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "cuc-4",
+          "ucName": "Corewell UC \u2014 Macomb",
+          "ucArea": "Macomb",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 0,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 3
+        },
+        {
+          "ucId": "cuc-5",
+          "ucName": "Corewell UC \u2014 Royal Oak Woodward Corners",
+          "ucArea": "Royal Oak Woodward Corners",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 28,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "cuc-6",
+          "ucName": "Corewell UC \u2014 Chesterfield",
+          "ucArea": "Chesterfield",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 0,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 2
+        },
+        {
+          "ucId": "cuc-7",
+          "ucName": "Corewell UC \u2014 Shelby Township",
+          "ucArea": "Shelby Township",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 20,
+          "pcpCount5mi": 0,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "cuc-8",
+          "ucName": "Corewell UC \u2014 Bloomfield Township",
+          "ucArea": "Bloomfield Township",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 14,
+          "pcpSlots10mi": 37,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "cuc-9",
+          "ucName": "Corewell UC \u2014 Novi",
+          "ucArea": "Novi",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 11,
+          "pcpSlots10mi": 57,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 18
+        },
+        {
+          "ucId": "cuc-0",
+          "ucName": "Corewell UC \u2014 Southgate",
+          "ucArea": "Southgate",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 6,
+          "pcpSlots10mi": 25,
+          "pcpCount5mi": 7,
+          "pcpCount10mi": 16
+        },
+        {
+          "ucId": "cuc-1",
+          "ucName": "Corewell UC \u2014 Warren West",
+          "ucArea": "Warren West",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 17,
+          "pcpSlots10mi": 25,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 12
+        },
+        {
+          "ucId": "cuc-2",
+          "ucName": "Corewell UC \u2014 Taylor",
+          "ucArea": "Taylor",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 32,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "cuc-3",
+          "ucName": "Corewell UC \u2014 Allen Park",
+          "ucArea": "Allen Park",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 59,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 23
+        },
+        {
+          "ucId": "cuc-4",
+          "ucName": "Corewell UC \u2014 Bloomfield Hills",
+          "ucArea": "Bloomfield Hills",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 14,
+          "pcpSlots10mi": 37,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "cuc-5",
+          "ucName": "Corewell UC \u2014 Warren East",
+          "ucArea": "Warren East",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 17,
+          "pcpSlots10mi": 25,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 12
+        },
+        {
+          "ucId": "cuc-6",
+          "ucName": "Corewell UC \u2014 Grosse Pointe Farms",
+          "ucArea": "Grosse Pointe Farms",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 6,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 5
+        },
+        {
+          "ucId": "cuc-7",
+          "ucName": "Corewell UC \u2014 Dearborn",
+          "ucArea": "Dearborn",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 14,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 19
+        },
+        {
+          "ucId": "cuc-8",
+          "ucName": "Corewell UC \u2014 Haggerty Square",
+          "ucArea": "Haggerty Square",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 60,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 32
+        },
+        {
+          "ucId": "cuc-9",
+          "ucName": "Corewell UC \u2014 Downtown Royal Oak",
+          "ucArea": "Downtown Royal Oak",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 1,
+          "pcpSlots10mi": 28,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "cuc-0",
+          "ucName": "Corewell UC \u2014 Farmington Hills North",
+          "ucArea": "Farmington Hills North",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 24,
+          "pcpSlots10mi": 68,
+          "pcpCount5mi": 7,
+          "pcpCount10mi": 21
+        },
+        {
+          "ucId": "cuc-1",
+          "ucName": "Corewell UC \u2014 Wayne",
+          "ucArea": "Wayne",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 6,
+          "pcpCount10mi": 20
+        },
+        {
+          "ucId": "cuc-2",
+          "ucName": "Corewell UC \u2014 Farmington Hills South",
+          "ucArea": "Farmington Hills South",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 24,
+          "pcpSlots10mi": 68,
+          "pcpCount5mi": 7,
+          "pcpCount10mi": 21
+        },
+        {
+          "ucId": "cuc-3",
+          "ucName": "Corewell UC \u2014 Woodhaven",
+          "ucArea": "Woodhaven",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 18,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 10
+        },
+        {
+          "ucId": "cuc-4",
+          "ucName": "Corewell UC \u2014 Canton Michigan",
+          "ucArea": "Canton Michigan",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 17,
+          "pcpSlots10mi": 27,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 16
+        },
+        {
+          "ucId": "cuc-5",
+          "ucName": "Corewell UC \u2014 Troy Square Lake",
+          "ucArea": "Troy Square Lake",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 3,
+          "pcpSlots10mi": 35,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "cuc-6",
+          "ucName": "Corewell UC \u2014 West Bloomfield",
+          "ucArea": "West Bloomfield",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 19,
+          "pcpSlots10mi": 56,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 16
+        },
+        {
+          "ucId": "cuc-7",
+          "ucName": "Corewell UC \u2014 St Clair Shores",
+          "ucArea": "St Clair Shores",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 6,
+          "pcpSlots10mi": 23,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "cuc-8",
+          "ucName": "Corewell UC \u2014 Garden City",
+          "ucArea": "Garden City",
+          "ucSystem": "Corewell Health Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 32,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "dc-53252",
+          "ucName": "Doctors Care \u2014 Redford",
+          "ucArea": "Redford",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 42,
+          "pcpCount5mi": 9,
+          "pcpCount10mi": 28
+        },
+        {
+          "ucId": "dc-99080",
+          "ucName": "Doctors Care \u2014 Canton",
+          "ucArea": "Canton",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 17,
+          "pcpSlots10mi": 27,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 16
+        },
+        {
+          "ucId": "dc-36754",
+          "ucName": "Doctors Care \u2014 Commerce",
+          "ucArea": "Commerce",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 5,
+          "pcpSlots10mi": 43,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "dc-4976",
+          "ucName": "Doctors Care \u2014 Chesterfield",
+          "ucArea": "Chesterfield",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 0,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 2
+        },
+        {
+          "ucId": "dc-32586",
+          "ucName": "Doctors Care \u2014 Clinton Township",
+          "ucArea": "Clinton Township",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 24,
+          "pcpCount5mi": 1,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "dc-68393",
+          "ucName": "Doctors Care \u2014 Shelby",
+          "ucArea": "Shelby",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 20,
+          "pcpCount5mi": 0,
+          "pcpCount10mi": 9
+        },
+        {
+          "ucId": "dc-78345",
+          "ucName": "Doctors Care \u2014 Livonia",
+          "ucArea": "Livonia",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 7,
+          "pcpSlots10mi": 60,
+          "pcpCount5mi": 10,
+          "pcpCount10mi": 32
+        },
+        {
+          "ucId": "dc-51337",
+          "ucName": "Doctors Care \u2014 Farmington Hills",
+          "ucArea": "Farmington Hills",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 24,
+          "pcpSlots10mi": 68,
+          "pcpCount5mi": 7,
+          "pcpCount10mi": 21
+        },
+        {
+          "ucId": "dc-74035",
+          "ucName": "Doctors Care \u2014 Rochester Hills",
+          "ucArea": "Rochester Hills",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 2,
+          "pcpSlots10mi": 34,
+          "pcpCount5mi": 3,
+          "pcpCount10mi": 10
+        },
+        {
+          "ucId": "dc-59269",
+          "ucName": "Doctors Care \u2014 Taylor",
+          "ucArea": "Taylor",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 0,
+          "pcpSlots10mi": 32,
+          "pcpCount5mi": 4,
+          "pcpCount10mi": 27
+        },
+        {
+          "ucId": "dc-18548",
+          "ucName": "Doctors Care \u2014 Troy",
+          "ucArea": "Troy",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 3,
+          "pcpSlots10mi": 35,
+          "pcpCount5mi": 5,
+          "pcpCount10mi": 13
+        },
+        {
+          "ucId": "dc-49546",
+          "ucName": "Doctors Care \u2014 Ypsilanti",
+          "ucArea": "Ypsilanti",
+          "ucSystem": "Doctors Urgent Care",
+          "pcpSlots5mi": 3,
+          "pcpSlots10mi": 15,
+          "pcpCount5mi": 2,
+          "pcpCount10mi": 6
+        }
+      ],
+      "bySystem": {
+        "Trinity Health Primary Care": {
+          "sameDaySlots": 153,
+          "nextDaySlots": 84,
+          "locationCount": 35,
+          "ucSlots": 0,
+          "pcpSlots": 153,
+          "locType": "PCP"
+        },
+        "Henry Ford Primary Care": {
+          "sameDaySlots": 85,
+          "nextDaySlots": 99,
+          "locationCount": 21,
+          "ucSlots": 0,
+          "pcpSlots": 85,
+          "locType": "PCP"
+        },
+        "GoHealth / Henry Ford UC": {
+          "sameDaySlots": 580,
+          "nextDaySlots": 0,
+          "locationCount": 15,
+          "ucSlots": 580,
+          "pcpSlots": 0,
+          "locType": "UC"
+        },
+        "1st Choice Urgent Care": {
+          "sameDaySlots": 718,
+          "nextDaySlots": 0,
+          "locationCount": 18,
+          "ucSlots": 718,
+          "pcpSlots": 0,
+          "locType": "UC"
+        },
+        "Corewell Health Primary Care": {
+          "sameDaySlots": 4,
+          "nextDaySlots": 19,
+          "locationCount": 36,
+          "ucSlots": 0,
+          "pcpSlots": 4,
+          "locType": "PCP"
+        },
+        "Corewell Health Urgent Care": {
+          "sameDaySlots": 90,
+          "nextDaySlots": 0,
+          "locationCount": 28,
+          "ucSlots": 90,
+          "pcpSlots": 0,
+          "locType": "UC"
+        },
+        "Doctors Urgent Care": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "locationCount": 16,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 1388,
+        "totalPCPSameDay": 242,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 202,
+        "ucLocationCount": 77,
+        "pcpLocationCount": 92,
+        "ucWithAvailability": 43,
+        "pcpWithAvailability": 45
+      }
     }
   ],
-  "lastUpdated": "2026-04-20T11:17:25.821730",
+  "lastUpdated": "2026-04-21T09:16:40.522060",
   "market": "MI"
 }
