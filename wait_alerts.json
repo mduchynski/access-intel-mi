@@ -1,5 +1,34 @@
 {
-  "entries": [],
-  "lastUpdated": "2026-04-28T20:18:16.275930",
+  "entries": [
+    {
+      "scrapeTime": "2026-04-29T08:16:44.107812",
+      "scrapeTimeDisplay": "8:16 AM",
+      "scrapeDate": "2026-04-29",
+      "locationName": "Corewell UC \u2014 Royal Oak Woodward Corners",
+      "systemName": "Corewell Health Urgent Care",
+      "address": "30955 Woodward Avenue Royal Oak, MI",
+      "area": "Royal Oak Woodward Corners",
+      "nextAvailableTime": "10:05 AM",
+      "nextAvailableRaw": "10:05:00",
+      "minutesOut": 108,
+      "hoursOut": 1.8,
+      "sameDaySlots": 10
+    },
+    {
+      "scrapeTime": "2026-04-29T08:16:44.107812",
+      "scrapeTimeDisplay": "8:16 AM",
+      "scrapeDate": "2026-04-29",
+      "locationName": "Corewell UC \u2014 Downtown Royal Oak",
+      "systemName": "Corewell Health Urgent Care",
+      "address": "309 E 11 Mile Road Royal Oak, MI",
+      "area": "Downtown Royal Oak",
+      "nextAvailableTime": "10:00 AM",
+      "nextAvailableRaw": "10:00:00",
+      "minutesOut": 103,
+      "hoursOut": 1.7,
+      "sameDaySlots": 10
+    }
+  ],
+  "lastUpdated": "2026-04-29T08:16:44.107812",
   "threshold_minutes": 50
 }
