@@ -30007,8 +30007,42 @@
         "ucWithAvailability": 61,
         "pcpWithAvailability": 54
       }
+    },
+    {
+      "date": "2026-06-03",
+      "timestamp": "2026-06-03T08:57:35.692431",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {
+        "GoHealth / Henry Ford UC": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "locationCount": 15,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "UC"
+        },
+        "1st Choice Urgent Care": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "locationCount": 18,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 0,
+        "totalPCPSameDay": 0,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 0,
+        "ucLocationCount": 33,
+        "pcpLocationCount": 0,
+        "ucWithAvailability": 0,
+        "pcpWithAvailability": 0
+      }
     }
   ],
-  "lastUpdated": "2026-06-01T08:14:50.239303",
+  "lastUpdated": "2026-06-03T08:57:35.692447",
   "market": "MI"
 }
