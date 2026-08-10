@@ -47412,8 +47412,34 @@
         "ucWithAvailability": 28,
         "pcpWithAvailability": 0
       }
+    },
+    {
+      "date": "2026-08-10",
+      "timestamp": "2026-08-10T08:21:37.398567",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {
+        "Corewell Health Urgent Care": {
+          "sameDaySlots": 280,
+          "nextDaySlots": 0,
+          "locationCount": 28,
+          "ucSlots": 280,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 280,
+        "totalPCPSameDay": 0,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 0,
+        "ucLocationCount": 28,
+        "pcpLocationCount": 0,
+        "ucWithAvailability": 28,
+        "pcpWithAvailability": 0
+      }
     }
   ],
-  "lastUpdated": "2026-08-09T08:26:37.686801",
+  "lastUpdated": "2026-08-10T08:21:37.398574",
   "market": "MI"
 }
