@@ -49441,8 +49441,50 @@
         "ucWithAvailability": 43,
         "pcpWithAvailability": 1
       }
+    },
+    {
+      "date": "2026-08-23",
+      "timestamp": "2026-08-23T08:24:14.822591",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {
+        "Trinity Health Primary Care": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 123,
+          "locationCount": 39,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "PCP"
+        },
+        "Henry Ford Primary Care": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 67,
+          "locationCount": 26,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "PCP"
+        },
+        "Corewell Health Urgent Care": {
+          "sameDaySlots": 280,
+          "nextDaySlots": 0,
+          "locationCount": 28,
+          "ucSlots": 280,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 280,
+        "totalPCPSameDay": 0,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 190,
+        "ucLocationCount": 28,
+        "pcpLocationCount": 65,
+        "ucWithAvailability": 28,
+        "pcpWithAvailability": 0
+      }
     }
   ],
-  "lastUpdated": "2026-08-22T08:16:01.338387",
+  "lastUpdated": "2026-08-23T08:24:14.822600",
   "market": "MI"
 }
