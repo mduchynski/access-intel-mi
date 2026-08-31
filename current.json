@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-30T21:11:30",
+  "lastUpdated": "2026-08-30T22:10:47",
   "market": "Michigan",
   "systems": {
     "trinity_pc": {
       "name": "Trinity Health Primary Care",
       "locations": [
         {
-          "id": "thpc-56716",
+          "id": "thpc-28928",
           "name": "Trinity Health IHA Medical Group Primary Care - Cherry Hill Village",
           "area": "Canton",
           "type": "Primary Care",
@@ -15,7 +15,7 @@
           "nextAvailable": "Mon 8/31 \u2014 5 slots (first: 11:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.171801",
+          "lastChecked": "2026-08-30T22:14:08.607175",
           "address": "49650 Cherry Hill Rd, Ste 120 Canton MI 48187-4850",
           "lat": 42.309,
           "lng": -83.482,
@@ -23,7 +23,7 @@
           "zip": "49650"
         },
         {
-          "id": "thpc-56658",
+          "id": "thpc-99752",
           "name": "Trinity Health IHA Medical Group Primary Care - Chelsea",
           "area": "Chelsea",
           "type": "Primary Care",
@@ -32,7 +32,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 1:30 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172013",
+          "lastChecked": "2026-08-30T22:14:08.607314",
           "address": "14288 E Old US Hwy 12 Suite 200 Chelsea MI 48118-2700",
           "lat": null,
           "lng": null,
@@ -40,7 +40,7 @@
           "zip": "14288"
         },
         {
-          "id": "thpc-80575",
+          "id": "thpc-18532",
           "name": "Trinity Health IHA Medical Group Primary Care - Arbor Park",
           "area": "Ypsilanti",
           "type": "Primary Care",
@@ -49,7 +49,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 10:50 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172081",
+          "lastChecked": "2026-08-30T22:14:08.607381",
           "address": "4940 W Clark Rd, Ste 100 Ypsilanti MI 48197-0861",
           "lat": 42.22,
           "lng": -83.62,
@@ -57,7 +57,7 @@
           "zip": "48197"
         },
         {
-          "id": "thpc-71284",
+          "id": "thpc-3349",
           "name": "Trinity Health IHA Medical Group Primary Care - Commerce",
           "area": "Commerce Township",
           "type": "Primary Care",
@@ -66,7 +66,7 @@
           "nextAvailable": "Mon 8/31 \u2014 23 slots (first: 1:40 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172155",
+          "lastChecked": "2026-08-30T22:14:08.607453",
           "address": "4123 Martin Rd Ste 102 Commerce Township MI 48390-4151",
           "lat": 42.568,
           "lng": -83.494,
@@ -74,7 +74,7 @@
           "zip": "48390"
         },
         {
-          "id": "thpc-13334",
+          "id": "thpc-91755",
           "name": "Trinity Health Academic Family Medicine - Livingston",
           "area": "Brighton",
           "type": "Primary Care",
@@ -83,7 +83,7 @@
           "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 3:15 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172217",
+          "lastChecked": "2026-08-30T22:14:08.607538",
           "address": "7575 Grand River Ave, Ste 210 Brighton MI 48114-7005",
           "lat": null,
           "lng": null,
@@ -91,7 +91,7 @@
           "zip": "48114"
         },
         {
-          "id": "thpc-22132",
+          "id": "thpc-2074",
           "name": "Trinity Health Henderson Academic Primary Care",
           "area": "Pontiac",
           "type": "Primary Care",
@@ -100,7 +100,7 @@
           "nextAvailable": "Mon 8/31 \u2014 3 slots (first: 8:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172279",
+          "lastChecked": "2026-08-30T22:14:08.607603",
           "address": "44428 Woodward Ave Suite 102 Pontiac MI 48341-5009",
           "lat": 42.639,
           "lng": -83.291,
@@ -108,24 +108,7 @@
           "zip": "44428"
         },
         {
-          "id": "thpc-24702",
-          "name": "Trinity Health Medical Group Primary Care - Rivertown",
-          "area": "Grandville",
-          "type": "Primary Care",
-          "sameDaySlots": 0,
-          "nextDaySlots": 2,
-          "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 11:30 AM)",
-          "nextAvailableDate": "Mon 8/31",
-          "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172337",
-          "address": "3380 44th St SW Grandville MI 49418-2461",
-          "lat": null,
-          "lng": null,
-          "times": [],
-          "zip": "49418"
-        },
-        {
-          "id": "thpc-47608",
+          "id": "thpc-32841",
           "name": "Trinity Health IHA Medical Group Primary Care - Dominos Farms",
           "area": "Ann Arbor",
           "type": "Primary Care",
@@ -134,7 +117,7 @@
           "nextAvailable": "Mon 8/31 \u2014 5 slots (first: 11:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172388",
+          "lastChecked": "2026-08-30T22:14:08.607652",
           "address": "4200 Whitehall Dr, Ste 130 Ann Arbor MI 48105-9694",
           "lat": 42.31,
           "lng": -83.7,
@@ -142,7 +125,7 @@
           "zip": "48105"
         },
         {
-          "id": "thpc-46404",
+          "id": "thpc-46138",
           "name": "Trinity Health Medical Group Academic Internal Med - Medical Pavilion",
           "area": "Muskegon",
           "type": "Primary Care",
@@ -151,7 +134,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 11:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172445",
+          "lastChecked": "2026-08-30T22:14:08.607713",
           "address": "1150 E Sherman Blvd Ste 1100 Muskegon MI 49444-4607",
           "lat": null,
           "lng": null,
@@ -159,7 +142,7 @@
           "zip": "49444"
         },
         {
-          "id": "thpc-46879",
+          "id": "thpc-83097",
           "name": "Trinity Health IHA Medical Group Primary Care Freedom",
           "area": "Farmington Rd Livonia",
           "type": "Primary Care",
@@ -168,7 +151,7 @@
           "nextAvailable": "Mon 8/31 \u2014 10 slots (first: 8:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172497",
+          "lastChecked": "2026-08-30T22:14:08.607770",
           "address": "20206 Farmington Rd Livonia MI 48152-1412",
           "lat": 42.465,
           "lng": -83.377,
@@ -176,7 +159,7 @@
           "zip": "20206"
         },
         {
-          "id": "thpc-79218",
+          "id": "thpc-71262",
           "name": "Trinity Health Academic Internal Medicine - Northwest Livonia",
           "area": "Livonia",
           "type": "Primary Care",
@@ -185,7 +168,7 @@
           "nextAvailable": "Mon 8/31 \u2014 6 slots (first: 1:20 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172553",
+          "lastChecked": "2026-08-30T22:14:08.607827",
           "address": "37595 Seven Mile Rd, Ste 340 Livonia MI 48152-2002",
           "lat": 42.368,
           "lng": -83.353,
@@ -193,7 +176,24 @@
           "zip": "37595"
         },
         {
-          "id": "thpc-39934",
+          "id": "thpc-98267",
+          "name": "Trinity Health IHA Medical Group Primary Care - Pinckney",
+          "area": "Pinckney",
+          "type": "Primary Care",
+          "sameDaySlots": 0,
+          "nextDaySlots": 18,
+          "nextAvailable": "Mon 8/31 \u2014 18 slots (first: 8:30 AM)",
+          "nextAvailableDate": "Mon 8/31",
+          "source": "MyChart",
+          "lastChecked": "2026-08-30T22:14:08.607885",
+          "address": "10200 Dexter-Pinckney Rd Suite 100 Pinckney MI 48169-8962",
+          "lat": null,
+          "lng": null,
+          "times": [],
+          "zip": "10200"
+        },
+        {
+          "id": "thpc-94089",
           "name": "Trinity Health IHA Medical Group Primary Care - Lake Orion",
           "area": "Lake Orion",
           "type": "Primary Care",
@@ -202,7 +202,7 @@
           "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 10:20 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172608",
+          "lastChecked": "2026-08-30T22:14:08.607943",
           "address": "1375 S Lapeer Rd Suite 210 Lake Orion MI 48360-1421",
           "lat": 42.785,
           "lng": -83.24,
@@ -210,7 +210,7 @@
           "zip": "48360"
         },
         {
-          "id": "thpc-93858",
+          "id": "thpc-5265",
           "name": "Trinity Health Medical Group Primary Care - Spring Lake",
           "area": "Savidge St Spring Lake",
           "type": "Primary Care",
@@ -219,7 +219,7 @@
           "nextAvailable": "Mon 8/31 \u2014 9 slots (first: 11:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172664",
+          "lastChecked": "2026-08-30T22:14:08.607996",
           "address": "601 W Savidge St Spring Lake MI 49456-1620",
           "lat": null,
           "lng": null,
@@ -227,7 +227,7 @@
           "zip": "49456"
         },
         {
-          "id": "thpc-87661",
+          "id": "thpc-17687",
           "name": "Trinity Health IHA Medical Group Primary Care - Howell",
           "area": "Howell",
           "type": "Primary Care",
@@ -236,7 +236,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 1:00 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172719",
+          "lastChecked": "2026-08-30T22:14:08.608052",
           "address": "202 W Highland Rd Ste A Howell MI 48843-1162",
           "lat": 42.655,
           "lng": -83.597,
@@ -244,7 +244,7 @@
           "zip": "48843"
         },
         {
-          "id": "thpc-29316",
+          "id": "thpc-84508",
           "name": "Trinity Health Medical Group Primary Care - Rockford",
           "area": "Rockford",
           "type": "Primary Care",
@@ -253,7 +253,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 9:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172775",
+          "lastChecked": "2026-08-30T22:14:08.608197",
           "address": "6050 Northland Dr NE Ste 200 Rockford MI 49341-9257",
           "lat": null,
           "lng": null,
@@ -261,24 +261,7 @@
           "zip": "49341"
         },
         {
-          "id": "thpc-48757",
-          "name": "Trinity Health IHA Medical Group Primary Care - Pinckney",
-          "area": "Pinckney",
-          "type": "Primary Care",
-          "sameDaySlots": 0,
-          "nextDaySlots": 17,
-          "nextAvailable": "Mon 8/31 \u2014 17 slots (first: 9:00 AM)",
-          "nextAvailableDate": "Mon 8/31",
-          "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172833",
-          "address": "10200 Dexter-Pinckney Rd Suite 100 Pinckney MI 48169-8962",
-          "lat": null,
-          "lng": null,
-          "times": [],
-          "zip": "10200"
-        },
-        {
-          "id": "thpc-41122",
+          "id": "thpc-55814",
           "name": "Trinity Health Medical Group Primary Care & Peds - Byron Center",
           "area": "Byron Center",
           "type": "Primary Care",
@@ -287,7 +270,7 @@
           "nextAvailable": "Mon 8/31 \u2014 6 slots (first: 11:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172892",
+          "lastChecked": "2026-08-30T22:14:08.608258",
           "address": "2373 64th St SW Byron Center MI 49315-7974",
           "lat": null,
           "lng": null,
@@ -295,7 +278,7 @@
           "zip": "49315"
         },
         {
-          "id": "thpc-28016",
+          "id": "thpc-47109",
           "name": "Trinity Health Medical Group Primary Care - Norton Shores 120",
           "area": "Norton Shores",
           "type": "Primary Care",
@@ -304,7 +287,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 4:00 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.172947",
+          "lastChecked": "2026-08-30T22:14:08.608316",
           "address": "3570 Henry St Ste 120 Norton Shores MI 49441-4576",
           "lat": null,
           "lng": null,
@@ -312,7 +295,7 @@
           "zip": "49441"
         },
         {
-          "id": "thpc-943",
+          "id": "thpc-35540",
           "name": "Trinity Health Medical Group Primary Care & Pediatrics - Cherry",
           "area": "Grand Rapids",
           "type": "Primary Care",
@@ -321,7 +304,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 4:30 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173000",
+          "lastChecked": "2026-08-30T22:14:08.608369",
           "address": "245 Cherry St SE Ste 100 Grand Rapids MI 49503-4607",
           "lat": null,
           "lng": null,
@@ -329,7 +312,7 @@
           "zip": "49503"
         },
         {
-          "id": "thpc-58996",
+          "id": "thpc-48287",
           "name": "Trinity Health Medical Group Primary Care - West Olive",
           "area": "Stanton St West Olive",
           "type": "Primary Care",
@@ -338,7 +321,7 @@
           "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 10:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173058",
+          "lastChecked": "2026-08-30T22:14:08.608419",
           "address": "15151 Stanton St West Olive MI 49460-8543",
           "lat": null,
           "lng": null,
@@ -346,7 +329,7 @@
           "zip": "15151"
         },
         {
-          "id": "thpc-92518",
+          "id": "thpc-25532",
           "name": "Trinity Health Medical Group Primary Care - Walker",
           "area": "Walker",
           "type": "Primary Care",
@@ -355,7 +338,7 @@
           "nextAvailable": "Mon 8/31 \u2014 3 slots (first: 2:30 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173111",
+          "lastChecked": "2026-08-30T22:14:08.608482",
           "address": "1175 Wilson Ave NW Walker MI 49534-6407",
           "lat": null,
           "lng": null,
@@ -363,7 +346,7 @@
           "zip": "49534"
         },
         {
-          "id": "thpc-82449",
+          "id": "thpc-222",
           "name": "Trinity Health IHA Medical Group Primary Care - Milan",
           "area": "Milan",
           "type": "Primary Care",
@@ -372,7 +355,7 @@
           "nextAvailable": "Mon 8/31 \u2014 3 slots (first: 2:20 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173179",
+          "lastChecked": "2026-08-30T22:14:08.608536",
           "address": "870 E Arkona Rd, Ste 100 Milan MI 48160-1160",
           "lat": null,
           "lng": null,
@@ -380,24 +363,7 @@
           "zip": "48160"
         },
         {
-          "id": "thpc-3889",
-          "name": "Trinity Health Neighborhood Primary Care - Ypsilanti",
-          "area": "Ypsilanti",
-          "type": "Primary Care",
-          "sameDaySlots": 0,
-          "nextDaySlots": 1,
-          "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 8:20 AM)",
-          "nextAvailableDate": "Mon 8/31",
-          "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173222",
-          "address": "111 N Huron St, Suite 200 Ypsilanti MI 48197-2906",
-          "lat": 42.22,
-          "lng": -83.62,
-          "times": [],
-          "zip": "48197"
-        },
-        {
-          "id": "thpc-19276",
+          "id": "thpc-3813",
           "name": "Trinity Health IHA Medical Group Primary Care - Hamburg",
           "area": "Hamburg",
           "type": "Primary Care",
@@ -406,7 +372,7 @@
           "nextAvailable": "Mon 8/31 \u2014 10 slots (first: 8:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173296",
+          "lastChecked": "2026-08-30T22:14:08.608596",
           "address": "10020 Professional Center Dr, Ste 120 Hamburg MI 48139-0799",
           "lat": null,
           "lng": null,
@@ -414,7 +380,7 @@
           "zip": "10020"
         },
         {
-          "id": "thpc-37159",
+          "id": "thpc-3206",
           "name": "Trinity Health Medical Group Primary Care - Norton Shores 220",
           "area": "Norton Shores",
           "type": "Primary Care",
@@ -423,7 +389,7 @@
           "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 8:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173357",
+          "lastChecked": "2026-08-30T22:14:08.608647",
           "address": "3570 Henry St Ste 220 Norton Shores MI 49441-4576",
           "lat": null,
           "lng": null,
@@ -431,7 +397,7 @@
           "zip": "49441"
         },
         {
-          "id": "thpc-6212",
+          "id": "thpc-12573",
           "name": "Trinity Health IHA Medical Group Primary Care Saline",
           "area": "Saline",
           "type": "Primary Care",
@@ -440,7 +406,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 11:10 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173418",
+          "lastChecked": "2026-08-30T22:14:08.608705",
           "address": "7115 E Michigan Ave Suite 100 Saline MI 48176-2700",
           "lat": null,
           "lng": null,
@@ -448,7 +414,7 @@
           "zip": "48176"
         },
         {
-          "id": "thpc-94261",
+          "id": "thpc-3283",
           "name": "Trinity Health IHA Medical Group Primary Care - Farmington Hills",
           "area": "Farmington Hills",
           "type": "Primary Care",
@@ -457,7 +423,7 @@
           "nextAvailable": "Mon 8/31 \u2014 11 slots (first: 9:10 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173473",
+          "lastChecked": "2026-08-30T22:14:08.608756",
           "address": "28300 Orchard Lake Rd Suite 103 Farmington Hills MI 48334-3704",
           "lat": 42.498,
           "lng": -83.377,
@@ -465,7 +431,7 @@
           "zip": "28300"
         },
         {
-          "id": "thpc-62268",
+          "id": "thpc-64318",
           "name": "Trinity Health Academic Internal Medicine - Ann Arbor",
           "area": "Ypsilanti",
           "type": "Primary Care",
@@ -474,7 +440,7 @@
           "nextAvailable": "Mon 8/31 \u2014 3 slots (first: 9:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173518",
+          "lastChecked": "2026-08-30T22:14:08.608795",
           "address": "5333 McAuley Dr, Ste 4001 Ypsilanti MI 48197-1051",
           "lat": 42.22,
           "lng": -83.62,
@@ -482,16 +448,16 @@
           "zip": "48197"
         },
         {
-          "id": "thpc-68327",
+          "id": "thpc-71023",
           "name": "Trinity Health IHA Medical Group Primary Care - East Howell",
           "area": "Grand River Ave Howell",
           "type": "Primary Care",
           "sameDaySlots": 0,
-          "nextDaySlots": 2,
-          "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 9:50 AM)",
+          "nextDaySlots": 1,
+          "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 9:50 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173586",
+          "lastChecked": "2026-08-30T22:14:08.608847",
           "address": "3477 E Grand River Ave Howell MI 48843-8552",
           "lat": null,
           "lng": null,
@@ -499,7 +465,7 @@
           "zip": "48843"
         },
         {
-          "id": "thpc-29267",
+          "id": "thpc-35916",
           "name": "Trinity Health IHA Medical Group Primary Care - Rochester Hills",
           "area": "Rochester Hills",
           "type": "Primary Care",
@@ -508,7 +474,7 @@
           "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 9:40 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173637",
+          "lastChecked": "2026-08-30T22:14:08.608889",
           "address": "1854 W Auburn Rd Suite 300 A Rochester Hills MI 48309-3868",
           "lat": 42.65,
           "lng": -83.15,
@@ -516,7 +482,7 @@
           "zip": "48309"
         },
         {
-          "id": "thpc-10836",
+          "id": "thpc-84495",
           "name": "Trinity Health Academic Family Medicine - Northwest Livonia",
           "area": "Livonia",
           "type": "Primary Care",
@@ -525,7 +491,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 8:25 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173691",
+          "lastChecked": "2026-08-30T22:14:08.608938",
           "address": "37595 Seven Mile Rd, Ste 210 Livonia MI 48152-1003",
           "lat": 42.368,
           "lng": -83.353,
@@ -533,7 +499,7 @@
           "zip": "37595"
         },
         {
-          "id": "thpc-24171",
+          "id": "thpc-59359",
           "name": "Trinity Health Medical Group Academic Internal Medicine-Grand Rapids",
           "area": "Grand Rapids",
           "type": "Primary Care",
@@ -542,7 +508,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 2:30 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173750",
+          "lastChecked": "2026-08-30T22:14:08.608991",
           "address": "300 Lafayette SE Ste 3000 Grand Rapids MI 49503-4600",
           "lat": null,
           "lng": null,
@@ -550,7 +516,7 @@
           "zip": "49503"
         },
         {
-          "id": "thpc-18701",
+          "id": "thpc-44180",
           "name": "Trinity Health Medical Group Primary Care - Shelby",
           "area": "Bevier St Shelby",
           "type": "Primary Care",
@@ -559,7 +525,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 8:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173800",
+          "lastChecked": "2026-08-30T22:14:08.609038",
           "address": "71 Bevier St Shelby MI 49455-1209",
           "lat": null,
           "lng": null,
@@ -567,7 +533,24 @@
           "zip": "49455"
         },
         {
-          "id": "thpc-3817",
+          "id": "thpc-41909",
+          "name": "Trinity Health Medical Group Primary Care - Rivertown",
+          "area": "Grandville",
+          "type": "Primary Care",
+          "sameDaySlots": 0,
+          "nextDaySlots": 2,
+          "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 11:30 AM)",
+          "nextAvailableDate": "Mon 8/31",
+          "source": "MyChart",
+          "lastChecked": "2026-08-30T22:14:08.609087",
+          "address": "3380 44th St SW Grandville MI 49418-2461",
+          "lat": null,
+          "lng": null,
+          "times": [],
+          "zip": "49418"
+        },
+        {
+          "id": "thpc-71716",
           "name": "Trinity Health Medical Group Primary Care - Hudsonville",
           "area": "Hudsonville",
           "type": "Primary Care",
@@ -576,7 +559,7 @@
           "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 7:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173854",
+          "lastChecked": "2026-08-30T22:14:08.609138",
           "address": "3925 32nd Ave Ste 300 Hudsonville MI 49426-8495",
           "lat": null,
           "lng": null,
@@ -584,7 +567,7 @@
           "zip": "49426"
         },
         {
-          "id": "thpc-35428",
+          "id": "thpc-52729",
           "name": "Trinity Health Medical Group Primary Care - Hart",
           "area": "Main St Hart",
           "type": "Primary Care",
@@ -593,7 +576,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 2:20 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173905",
+          "lastChecked": "2026-08-30T22:14:08.609186",
           "address": "611 E Main St Hart MI 49420-1190",
           "lat": null,
           "lng": null,
@@ -601,7 +584,7 @@
           "zip": "49420"
         },
         {
-          "id": "thpc-88217",
+          "id": "thpc-72053",
           "name": "Trinity Health Medical Group Primary Care & Pediatrics - Grand Haven",
           "area": "Grand Haven",
           "type": "Primary Care",
@@ -610,7 +593,7 @@
           "nextAvailable": "Mon 8/31 \u2014 7 slots (first: 7:45 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.173961",
+          "lastChecked": "2026-08-30T22:14:08.609237",
           "address": "1445 Sheldon Rd Ste 300 Grand Haven MI 49417-2479",
           "lat": null,
           "lng": null,
@@ -618,7 +601,7 @@
           "zip": "49417"
         },
         {
-          "id": "thpc-42671",
+          "id": "thpc-56061",
           "name": "Trinity Health Medical Group Primary Care - Sparta",
           "area": "State St Sparta",
           "type": "Primary Care",
@@ -627,7 +610,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 1:30 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174012",
+          "lastChecked": "2026-08-30T22:14:08.609285",
           "address": "475 S State St Sparta MI 49345-1549",
           "lat": null,
           "lng": null,
@@ -635,7 +618,7 @@
           "zip": "49345"
         },
         {
-          "id": "thpc-64901",
+          "id": "thpc-48763",
           "name": "Trinity Health Medical Group Primary Care - Lakes Village",
           "area": "Norton Shores",
           "type": "Primary Care",
@@ -644,7 +627,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 11:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174069",
+          "lastChecked": "2026-08-30T22:14:08.609337",
           "address": "6401 Prairie St Ste 2600 Norton Shores MI 49444-7842",
           "lat": null,
           "lng": null,
@@ -652,7 +635,7 @@
           "zip": "49444"
         },
         {
-          "id": "thpc-84932",
+          "id": "thpc-45310",
           "name": "Trinity Health IHA Medical Group Primary Care -Waterford",
           "area": "Highland Rd Waterford",
           "type": "Primary Care",
@@ -661,7 +644,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 2:40 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174111",
+          "lastChecked": "2026-08-30T22:14:08.609372",
           "address": "4400 Highland Rd Waterford MI 48328-1222",
           "lat": 42.62,
           "lng": -83.38,
@@ -669,7 +652,7 @@
           "zip": "48328"
         },
         {
-          "id": "thpc-46744",
+          "id": "thpc-31523",
           "name": "Trinity Health IHA Medical Group Primary Care - Bloomfield",
           "area": "Bloomfield Hills",
           "type": "Primary Care",
@@ -678,7 +661,7 @@
           "nextAvailable": "Tue 9/1 \u2014 1 slots (first: 4:00 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174163",
+          "lastChecked": "2026-08-30T22:14:08.609421",
           "address": "43097 Woodward Ave Suite 100 Bloomfield Hills MI 48302-5043",
           "lat": 42.583,
           "lng": -83.245,
@@ -686,7 +669,7 @@
           "zip": "43097"
         },
         {
-          "id": "thpc-33859",
+          "id": "thpc-72207",
           "name": "Trinity Health IHA Medical Group Primary Care - EMU",
           "area": "Ypsilanti",
           "type": "Primary Care",
@@ -695,7 +678,7 @@
           "nextAvailable": "Tue 9/1 \u2014 9 slots (first: 2:00 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174206",
+          "lastChecked": "2026-08-30T22:14:08.609460",
           "address": "1065 N Huron River Dr, Ste 100 Ypsilanti MI 48197-3296",
           "lat": 42.22,
           "lng": -83.62,
@@ -703,7 +686,7 @@
           "zip": "48197"
         },
         {
-          "id": "thpc-8282",
+          "id": "thpc-28917",
           "name": "Trinity Health Medical Group Primary Care - Whitehall",
           "area": "Colby St Whitehall",
           "type": "Primary Care",
@@ -712,7 +695,7 @@
           "nextAvailable": "Tue 9/1 \u2014 1 slots (first: 4:30 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174258",
+          "lastChecked": "2026-08-30T22:14:08.609522",
           "address": "905 E Colby St Whitehall MI 49461-1262",
           "lat": null,
           "lng": null,
@@ -720,7 +703,7 @@
           "zip": "49461"
         },
         {
-          "id": "thpc-71243",
+          "id": "thpc-25294",
           "name": "Trinity Health IHA Medical Group Primary Care - Clinton",
           "area": "Clinton Hwy Clinton",
           "type": "Primary Care",
@@ -729,7 +712,7 @@
           "nextAvailable": "Tue 9/1 \u2014 1 slots (first: 8:00 AM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174310",
+          "lastChecked": "2026-08-30T22:14:08.609578",
           "address": "11775 Tecumseh-Clinton Hwy Clinton MI 49236-9744",
           "lat": null,
           "lng": null,
@@ -737,7 +720,7 @@
           "zip": "11775"
         },
         {
-          "id": "thpc-9172",
+          "id": "thpc-82026",
           "name": "Trinity Health IHA Medical Group Primary Care - Dexter",
           "area": "Ann Arbor Rd Dexter",
           "type": "Primary Care",
@@ -746,7 +729,7 @@
           "nextAvailable": "Tue 9/1 \u2014 1 slots (first: 1:00 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174359",
+          "lastChecked": "2026-08-30T22:14:08.609630",
           "address": "7093 Dexter-Ann Arbor Rd Dexter MI 48130-8568",
           "lat": 42.281,
           "lng": -83.749,
@@ -754,7 +737,7 @@
           "zip": "48130"
         },
         {
-          "id": "thpc-89376",
+          "id": "thpc-70",
           "name": "Trinity Health IHA Medical Group Primary Care - Canton",
           "area": "Canton",
           "type": "Primary Care",
@@ -763,7 +746,7 @@
           "nextAvailable": "Tue 9/1 \u2014 1 slots (first: 8:20 AM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174399",
+          "lastChecked": "2026-08-30T22:14:08.609670",
           "address": "1600 S Canton Center Rd, Ste 200 Canton MI 48188-1992",
           "lat": 42.23,
           "lng": -83.4,
@@ -771,7 +754,7 @@
           "zip": "48188"
         },
         {
-          "id": "thpc-89688",
+          "id": "thpc-71718",
           "name": "Trinity Health IHA Medical Group Primary Care - West Arbor",
           "area": "Ann Arbor",
           "type": "Primary Care",
@@ -780,7 +763,7 @@
           "nextAvailable": "Tue 9/1 \u2014 1 slots (first: 1:20 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174449",
+          "lastChecked": "2026-08-30T22:14:08.609720",
           "address": "4350 Jackson Rd, Ste 200 Ann Arbor MI 48103-1832",
           "lat": 42.281,
           "lng": -83.749,
@@ -788,7 +771,24 @@
           "zip": "48103"
         },
         {
-          "id": "thpc-8602",
+          "id": "thpc-56485",
+          "name": "Trinity Health Neighborhood Primary Care - Ypsilanti",
+          "area": "Ypsilanti",
+          "type": "Primary Care",
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "nextAvailable": "Wed 9/2 \u2014 3 slots (first: 9:00 AM)",
+          "nextAvailableDate": "Wed 9/2",
+          "source": "MyChart",
+          "lastChecked": "2026-08-30T22:14:08.609758",
+          "address": "111 N Huron St, Suite 200 Ypsilanti MI 48197-2906",
+          "lat": 42.22,
+          "lng": -83.62,
+          "times": [],
+          "zip": "48197"
+        },
+        {
+          "id": "thpc-6950",
           "name": "Trinity Health IHA Medical Group Primary Care - Clarkston",
           "area": "Clarkston",
           "type": "Primary Care",
@@ -797,7 +797,7 @@
           "nextAvailable": "Wed 9/2 \u2014 2 slots (first: 11:00 AM)",
           "nextAvailableDate": "Wed 9/2",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:14:52.174491",
+          "lastChecked": "2026-08-30T22:14:08.609796",
           "address": "5789 S Main St Ste 100 Clarkston MI 48346-2959",
           "lat": 42.7,
           "lng": -83.38,
@@ -810,7 +810,7 @@
       "name": "Henry Ford Primary Care",
       "locations": [
         {
-          "id": "hfpc-39996",
+          "id": "hfpc-26853",
           "name": "Henry Ford Medical Center - Columbus",
           "area": "Mile Rd Novi",
           "type": "Primary Care",
@@ -819,7 +819,7 @@
           "nextAvailable": "Mon 8/31 \u2014 25 slots (first: 3:00 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.473786",
+          "lastChecked": "2026-08-30T22:10:45.303027",
           "address": "39450 W 12 Mile Rd Novi MI 48377",
           "lat": 42.48,
           "lng": -83.476,
@@ -827,7 +827,7 @@
           "zip": "39450"
         },
         {
-          "id": "hfpc-73443",
+          "id": "hfpc-26229",
           "name": "Henry Ford Family Medicine - Burton",
           "area": "Center Rd Burton",
           "type": "Primary Care",
@@ -836,7 +836,7 @@
           "nextAvailable": "Mon 8/31 \u2014 5 slots (first: 10:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474015",
+          "lastChecked": "2026-08-30T22:10:45.303248",
           "address": "1460 N Center Rd Burton MI 48509",
           "lat": null,
           "lng": null,
@@ -844,7 +844,7 @@
           "zip": "48509"
         },
         {
-          "id": "hfpc-21678",
+          "id": "hfpc-29460",
           "name": "Henry Ford Medical Center - Ford Rd",
           "area": "Auto Club Dr Dearborn",
           "type": "Primary Care",
@@ -853,7 +853,7 @@
           "nextAvailable": "Mon 8/31 \u2014 22 slots (first: 8:20 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474147",
+          "lastChecked": "2026-08-30T22:10:45.303377",
           "address": "5500 Auto Club Dr Dearborn MI 48126",
           "lat": 42.33,
           "lng": -83.18,
@@ -861,7 +861,7 @@
           "zip": "48126"
         },
         {
-          "id": "hfpc-21875",
+          "id": "hfpc-217",
           "name": "Henry Ford Medical Center - Ferndale",
           "area": "Ferndale",
           "type": "Primary Care",
@@ -870,7 +870,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 10:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474236",
+          "lastChecked": "2026-08-30T22:10:45.303467",
           "address": "221 W Troy St Ste 400 Ferndale MI 48220",
           "lat": 42.46,
           "lng": -83.18,
@@ -878,7 +878,7 @@
           "zip": "48220"
         },
         {
-          "id": "hfpc-74344",
+          "id": "hfpc-39377",
           "name": "Henry Ford Medical Center - Chelsea",
           "area": "Main St Chelsea",
           "type": "Primary Care",
@@ -887,7 +887,7 @@
           "nextAvailable": "Mon 8/31 \u2014 15 slots (first: 8:00 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474348",
+          "lastChecked": "2026-08-30T22:10:45.303574",
           "address": "1145 S Main St Chelsea MI 48118",
           "lat": null,
           "lng": null,
@@ -895,7 +895,7 @@
           "zip": "48118"
         },
         {
-          "id": "hfpc-15456",
+          "id": "hfpc-38941",
           "name": "Henry Ford Medical Center - Commerce",
           "area": "Commerce Township",
           "type": "Primary Care",
@@ -904,7 +904,7 @@
           "nextAvailable": "Mon 8/31 \u2014 3 slots (first: 5:00 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474424",
+          "lastChecked": "2026-08-30T22:10:45.303656",
           "address": "8391 Commerce Rd Ste 108 Commerce Township MI 48382",
           "lat": 42.56,
           "lng": -83.49,
@@ -912,7 +912,7 @@
           "zip": "48382"
         },
         {
-          "id": "hfpc-2414",
+          "id": "hfpc-70046",
           "name": "Henry Ford Primary Care - Seven Mile Road",
           "area": "Mile Rd Livonia",
           "type": "Primary Care",
@@ -921,7 +921,7 @@
           "nextAvailable": "Mon 8/31 \u2014 3 slots (first: 10:30 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474557",
+          "lastChecked": "2026-08-30T22:10:45.303743",
           "address": "37508 7 Mile Rd Livonia MI 48152",
           "lat": 42.368,
           "lng": -83.353,
@@ -929,16 +929,16 @@
           "zip": "37508"
         },
         {
-          "id": "hfpc-46409",
+          "id": "hfpc-55623",
           "name": "Henry Ford Primary Care - Rochester",
           "area": "Rochester",
           "type": "Primary Care",
           "sameDaySlots": 0,
-          "nextDaySlots": 2,
-          "nextAvailable": "Mon 8/31 \u2014 2 slots (first: 4:00 PM)",
+          "nextDaySlots": 1,
+          "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 4:00 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.474848",
+          "lastChecked": "2026-08-30T22:10:45.303928",
           "address": "1000 W University Dr Ste 100 Rochester MI 48307",
           "lat": 42.67,
           "lng": -83.14,
@@ -946,7 +946,7 @@
           "zip": "48307"
         },
         {
-          "id": "hfpc-27857",
+          "id": "hfpc-67991",
           "name": "Henry Ford Family Medicine - Shelby Twp North",
           "area": "Shelby Twp",
           "type": "Primary Care",
@@ -955,7 +955,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 4:20 PM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475010",
+          "lastChecked": "2026-08-30T22:10:45.304047",
           "address": "51221 Schoenherr Rd Ste 201 Shelby Twp MI 48315",
           "lat": null,
           "lng": null,
@@ -963,7 +963,7 @@
           "zip": "51221"
         },
         {
-          "id": "hfpc-91941",
+          "id": "hfpc-45157",
           "name": "Henry Ford Medical Center - Beck Rd",
           "area": "Beck Rd Plymouth",
           "type": "Primary Care",
@@ -972,7 +972,7 @@
           "nextAvailable": "Mon 8/31 \u2014 1 slots (first: 10:40 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475131",
+          "lastChecked": "2026-08-30T22:10:45.304164",
           "address": "14300 Beck Rd Plymouth MI 48170",
           "lat": 42.371,
           "lng": -83.47,
@@ -980,7 +980,7 @@
           "zip": "14300"
         },
         {
-          "id": "hfpc-90621",
+          "id": "hfpc-7705",
           "name": "Henry Ford Medical Center - Woodhaven",
           "area": "Allen Rd Woodhaven",
           "type": "Primary Care",
@@ -989,7 +989,7 @@
           "nextAvailable": "Mon 8/31 \u2014 5 slots (first: 10:20 AM)",
           "nextAvailableDate": "Mon 8/31",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475231",
+          "lastChecked": "2026-08-30T22:10:45.304251",
           "address": "22505 Allen Rd Woodhaven MI 48183",
           "lat": 42.139,
           "lng": -83.242,
@@ -997,7 +997,7 @@
           "zip": "22505"
         },
         {
-          "id": "hfpc-62876",
+          "id": "hfpc-52203",
           "name": "Henry Ford Medical Center - Bloomfield Twp",
           "area": "Telegraph Rd Bloomfield Twp",
           "type": "Primary Care",
@@ -1006,7 +1006,7 @@
           "nextAvailable": "Tue 9/1 \u2014 8 slots (first: 1:00 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475306",
+          "lastChecked": "2026-08-30T22:10:45.304304",
           "address": "1961 S Telegraph Rd Bloomfield Twp MI 48302",
           "lat": 42.61,
           "lng": -83.28,
@@ -1014,7 +1014,7 @@
           "zip": "48302"
         },
         {
-          "id": "hfpc-1241",
+          "id": "hfpc-54640",
           "name": "Henry Ford Medical Center - E Jefferson",
           "area": "Jefferson Ave Saint Clair Shores",
           "type": "Primary Care",
@@ -1023,7 +1023,7 @@
           "nextAvailable": "Tue 9/1 \u2014 19 slots (first: 1:00 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475392",
+          "lastChecked": "2026-08-30T22:10:45.304369",
           "address": "24725 Jefferson Ave Saint Clair Shores MI 48080",
           "lat": 42.497,
           "lng": -82.891,
@@ -1031,7 +1031,7 @@
           "zip": "24725"
         },
         {
-          "id": "hfpc-25381",
+          "id": "hfpc-31877",
           "name": "Henry Ford Medical Center - Fraser",
           "area": "Mile Rd Clinton Township",
           "type": "Primary Care",
@@ -1040,7 +1040,7 @@
           "nextAvailable": "Tue 9/1 \u2014 18 slots (first: 2:00 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475477",
+          "lastChecked": "2026-08-30T22:10:45.304428",
           "address": "15717 15 Mile Rd Clinton Township MI 48035",
           "lat": 42.582,
           "lng": -82.929,
@@ -1048,16 +1048,16 @@
           "zip": "15717"
         },
         {
-          "id": "hfpc-40370",
+          "id": "hfpc-96784",
           "name": "Henry Ford Medical Center - Warren",
           "area": "Warren",
           "type": "Primary Care",
           "sameDaySlots": 0,
           "nextDaySlots": 0,
-          "nextAvailable": "Tue 9/1 \u2014 3 slots (first: 4:40 PM)",
+          "nextAvailable": "Tue 9/1 \u2014 2 slots (first: 4:40 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475549",
+          "lastChecked": "2026-08-30T22:10:45.304475",
           "address": "8600 Chicago Rd S Warren MI 48093",
           "lat": 42.53,
           "lng": -83.05,
@@ -1065,7 +1065,7 @@
           "zip": "48093"
         },
         {
-          "id": "hfpc-90243",
+          "id": "hfpc-65103",
           "name": "Henry Ford Medical Center - Hamtramck",
           "area": "Brombach Hamtramck",
           "type": "Primary Care",
@@ -1074,7 +1074,7 @@
           "nextAvailable": "Tue 9/1 \u2014 2 slots (first: 1:40 PM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475623",
+          "lastChecked": "2026-08-30T22:10:45.304522",
           "address": "9100 Brombach Hamtramck MI 48212",
           "lat": 42.41,
           "lng": -83.05,
@@ -1082,7 +1082,7 @@
           "zip": "48212"
         },
         {
-          "id": "hfpc-18331",
+          "id": "hfpc-12705",
           "name": "Henry Ford Medical Center - Livonia",
           "area": "Schoolcraft Rd Livonia",
           "type": "Primary Care",
@@ -1091,7 +1091,7 @@
           "nextAvailable": "Tue 9/1 \u2014 2 slots (first: 10:40 AM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475814",
+          "lastChecked": "2026-08-30T22:10:45.304581",
           "address": "29200 Schoolcraft Rd Livonia MI 48150",
           "lat": 42.368,
           "lng": -83.353,
@@ -1099,7 +1099,7 @@
           "zip": "29200"
         },
         {
-          "id": "hfpc-54131",
+          "id": "hfpc-6604",
           "name": "Henry Ford Medical Center - Templin",
           "area": "Biddle Ave Wyandotte",
           "type": "Primary Care",
@@ -1108,7 +1108,7 @@
           "nextAvailable": "Tue 9/1 \u2014 21 slots (first: 10:00 AM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.475909",
+          "lastChecked": "2026-08-30T22:10:45.304630",
           "address": "2070 Biddle Ave Wyandotte MI 48192-4031",
           "lat": 42.21,
           "lng": -83.18,
@@ -1116,7 +1116,7 @@
           "zip": "48192"
         },
         {
-          "id": "hfpc-18817",
+          "id": "hfpc-67254",
           "name": "Henry Ford Medical Center - Schoenherr Rd",
           "area": "Warren",
           "type": "Primary Care",
@@ -1125,7 +1125,7 @@
           "nextAvailable": "Tue 9/1 \u2014 10 slots (first: 10:40 AM)",
           "nextAvailableDate": "Tue 9/1",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.476003",
+          "lastChecked": "2026-08-30T22:10:45.304691",
           "address": "27450 Schoenherr Rd Ste 400 Warren MI 48088",
           "lat": 42.49,
           "lng": -83.027,
@@ -1133,7 +1133,7 @@
           "zip": "27450"
         },
         {
-          "id": "hfpc-15636",
+          "id": "hfpc-31901",
           "name": "Henry Ford Family Medicine - Allen Park",
           "area": "Allen Rd Allen Park",
           "type": "Primary Care",
@@ -1142,7 +1142,7 @@
           "nextAvailable": "Wed 9/2 \u2014 19 slots (first: 10:40 AM)",
           "nextAvailableDate": "Wed 9/2",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.476069",
+          "lastChecked": "2026-08-30T22:10:45.304739",
           "address": "7226 Allen Rd Allen Park MI 48101",
           "lat": 42.27,
           "lng": -83.24,
@@ -1150,7 +1150,24 @@
           "zip": "48101"
         },
         {
-          "id": "hfpc-60013",
+          "id": "hfpc-55391",
+          "name": "Henry Ford Medical Center - Richmond",
+          "area": "Main St Richmond",
+          "type": "Primary Care",
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "nextAvailable": "Wed 9/2 \u2014 21 slots (first: 9:20 AM)",
+          "nextAvailableDate": "Wed 9/2",
+          "source": "MyChart",
+          "lastChecked": "2026-08-30T22:10:45.304796",
+          "address": "67267 Main St Richmond MI 48062-1919",
+          "lat": null,
+          "lng": null,
+          "times": [],
+          "zip": "67267"
+        },
+        {
+          "id": "hfpc-76207",
           "name": "Henry Ford Family Medicine - 8 Mile Livonia",
           "area": "Livonia",
           "type": "Primary Care",
@@ -1159,7 +1176,7 @@
           "nextAvailable": "Fri 9/4 \u2014 1 slots (first: 1:00 PM)",
           "nextAvailableDate": "Fri 9/4",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.476418",
+          "lastChecked": "2026-08-30T22:10:45.304853",
           "address": "33523 8 Mile Rd M2 Livonia MI 48152",
           "lat": 42.368,
           "lng": -83.353,
@@ -1167,7 +1184,7 @@
           "zip": "33523"
         },
         {
-          "id": "hfpc-2027",
+          "id": "hfpc-66851",
           "name": "Henry Ford Family Medicine - North Little Mack Ave",
           "area": "Saint Clair Shores",
           "type": "Primary Care",
@@ -1176,7 +1193,7 @@
           "nextAvailable": "Tue 9/8 \u2014 2 slots (first: 8:00 AM)",
           "nextAvailableDate": "Tue 9/8",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.476616",
+          "lastChecked": "2026-08-30T22:10:45.304908",
           "address": "24911 Little Mack Ave Ste C Saint Clair Shores MI 48080",
           "lat": 42.497,
           "lng": -82.891,
@@ -1184,24 +1201,7 @@
           "zip": "24911"
         },
         {
-          "id": "hfpc-41780",
-          "name": "Henry Ford Medical Center - Richmond",
-          "area": "Main St Richmond",
-          "type": "Primary Care",
-          "sameDaySlots": 0,
-          "nextDaySlots": 0,
-          "nextAvailable": "Tue 9/8 \u2014 17 slots (first: 4:40 PM)",
-          "nextAvailableDate": "Tue 9/8",
-          "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.476758",
-          "address": "67267 Main St Richmond MI 48062-1919",
-          "lat": null,
-          "lng": null,
-          "times": [],
-          "zip": "67267"
-        },
-        {
-          "id": "hfpc-37633",
+          "id": "hfpc-96595",
           "name": "Henry Ford Family Medicine - Grass Lake",
           "area": "Michigan Ave Grass Lake",
           "type": "Primary Care",
@@ -1210,7 +1210,7 @@
           "nextAvailable": "Wed 9/9 \u2014 3 slots (first: 2:00 PM)",
           "nextAvailableDate": "Wed 9/9",
           "source": "MyChart",
-          "lastChecked": "2026-08-30T21:11:28.476893",
+          "lastChecked": "2026-08-30T22:10:45.304966",
           "address": "12369 E Michigan Ave Grass Lake MI 49240-9213",
           "lat": null,
           "lng": null,
@@ -1223,7 +1223,7 @@
       "name": "GoHealth / Henry Ford UC",
       "locations": [
         {
-          "id": "gh-72511",
+          "id": "gh-82368",
           "name": "GoHealth UC \u2014 Berkley",
           "area": "Berkley",
           "type": "Urgent Care",
@@ -1232,7 +1232,7 @@
           "nextAvailable": "Sun 8/30 \u2014 43 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:00:39.621168",
+          "lastChecked": "2026-08-30T22:00:42.312100",
           "address": "2695 Coolidge Hwy, Berkley, MI 48072",
           "lat": 42.5,
           "lng": -83.184,
@@ -1261,7 +1261,7 @@
           "zip": "48072"
         },
         {
-          "id": "gh-98977",
+          "id": "gh-57864",
           "name": "GoHealth UC \u2014 Bruce Township",
           "area": "Bruce Township",
           "type": "Urgent Care",
@@ -1270,7 +1270,7 @@
           "nextAvailable": "Sun 8/30 \u2014 41 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:00:59.364173",
+          "lastChecked": "2026-08-30T22:01:02.108548",
           "address": "71050 Van Dyke Rd, Bruce Township, MI 48065",
           "lat": 42.818,
           "lng": -83.019,
@@ -1299,7 +1299,7 @@
           "zip": "71050"
         },
         {
-          "id": "gh-59984",
+          "id": "gh-48051",
           "name": "GoHealth UC \u2014 Canton",
           "area": "Canton",
           "type": "Urgent Care",
@@ -1308,7 +1308,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:01:19.006035",
+          "lastChecked": "2026-08-30T22:01:21.642601",
           "address": "43821 Ford Rd, Canton, MI 48187",
           "lat": 42.322,
           "lng": -83.475,
@@ -1337,7 +1337,7 @@
           "zip": "43821"
         },
         {
-          "id": "gh-94904",
+          "id": "gh-17453",
           "name": "GoHealth UC \u2014 Chesterfield",
           "area": "Chesterfield",
           "type": "Urgent Care",
@@ -1346,7 +1346,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:01:38.519638",
+          "lastChecked": "2026-08-30T22:01:41.359361",
           "address": "50637 Gratiot Ave, Chesterfield, MI 48051",
           "lat": 42.673,
           "lng": -82.838,
@@ -1375,7 +1375,7 @@
           "zip": "50637"
         },
         {
-          "id": "gh-35647",
+          "id": "gh-33927",
           "name": "GoHealth UC \u2014 Clinton Township",
           "area": "Clinton Township",
           "type": "Urgent Care",
@@ -1384,7 +1384,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:01:58.533655",
+          "lastChecked": "2026-08-30T22:02:00.732149",
           "address": "42010 Garfield Rd, Clinton Township, MI 48038",
           "lat": 42.582,
           "lng": -82.929,
@@ -1413,7 +1413,7 @@
           "zip": "42010"
         },
         {
-          "id": "gh-32705",
+          "id": "gh-78229",
           "name": "GoHealth UC \u2014 Commerce Township",
           "area": "Commerce Township",
           "type": "Urgent Care",
@@ -1422,7 +1422,7 @@
           "nextAvailable": "Sun 8/30 \u2014 43 slots (first: 8:30 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:02:17.935534",
+          "lastChecked": "2026-08-30T22:02:20.164452",
           "address": "3030 Union Lake Rd, Commerce Township, MI 48382",
           "lat": 42.568,
           "lng": -83.494,
@@ -1451,7 +1451,7 @@
           "zip": "48382"
         },
         {
-          "id": "gh-24024",
+          "id": "gh-31296",
           "name": "GoHealth UC \u2014 Dearborn Heights",
           "area": "Dearborn Heights",
           "type": "Urgent Care",
@@ -1460,7 +1460,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:02:37.387741",
+          "lastChecked": "2026-08-30T22:02:39.728758",
           "address": "25520 Ford Rd, Dearborn Heights, MI 48127",
           "lat": 42.337,
           "lng": -83.273,
@@ -1489,7 +1489,7 @@
           "zip": "25520"
         },
         {
-          "id": "gh-5513",
+          "id": "gh-43068",
           "name": "GoHealth UC \u2014 Fraser",
           "area": "Fraser",
           "type": "Urgent Care",
@@ -1498,7 +1498,7 @@
           "nextAvailable": "Sun 8/30 \u2014 43 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:02:56.885013",
+          "lastChecked": "2026-08-30T22:02:59.316845",
           "address": "33730 Garfield Rd, Fraser, MI 48026",
           "lat": 42.539,
           "lng": -82.949,
@@ -1527,16 +1527,16 @@
           "zip": "33730"
         },
         {
-          "id": "gh-37359",
+          "id": "gh-38345",
           "name": "GoHealth UC \u2014 Livonia",
           "area": "Livonia",
           "type": "Urgent Care",
-          "sameDaySlots": 44,
+          "sameDaySlots": 43,
           "nextDaySlots": 0,
-          "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
+          "nextAvailable": "Sun 8/30 \u2014 43 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:03:16.017436",
+          "lastChecked": "2026-08-30T22:03:19.070104",
           "address": "37672 Seven Mile Rd, Livonia, MI 48152",
           "lat": 42.4,
           "lng": -83.38,
@@ -1549,7 +1549,6 @@
             "9:45 AM",
             "10:00 AM",
             "10:15 AM",
-            "10:30 AM",
             "10:45 AM",
             "11:00 AM",
             "11:15 AM",
@@ -1560,12 +1559,13 @@
             "12:30 PM",
             "12:45 PM",
             "1:00 PM",
-            "1:15 PM"
+            "1:15 PM",
+            "1:30 PM"
           ],
           "zip": "37672"
         },
         {
-          "id": "gh-10247",
+          "id": "gh-49244",
           "name": "GoHealth UC \u2014 Southfield",
           "area": "Southfield",
           "type": "Urgent Care",
@@ -1574,7 +1574,7 @@
           "nextAvailable": "Sun 8/30 \u2014 45 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:03:35.735283",
+          "lastChecked": "2026-08-30T22:03:39.097222",
           "address": "29305 Southfield Rd, Southfield, MI 48076",
           "lat": 42.473,
           "lng": -83.222,
@@ -1603,7 +1603,7 @@
           "zip": "29305"
         },
         {
-          "id": "gh-89867",
+          "id": "gh-17598",
           "name": "GoHealth UC \u2014 Southgate",
           "area": "Southgate",
           "type": "Urgent Care",
@@ -1612,7 +1612,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:03:55.358445",
+          "lastChecked": "2026-08-30T22:03:59.067170",
           "address": "14750 Dix Toledo Rd, Southgate, MI 48195",
           "lat": 42.214,
           "lng": -83.194,
@@ -1641,7 +1641,7 @@
           "zip": "14750"
         },
         {
-          "id": "gh-90087",
+          "id": "gh-50699",
           "name": "GoHealth UC \u2014 St. Clair Shores",
           "area": "St. Clair Shores",
           "type": "Urgent Care",
@@ -1650,7 +1650,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:04:14.947769",
+          "lastChecked": "2026-08-30T22:04:18.474873",
           "address": "21950 Harper Ave, St. Clair Shores, MI 48080",
           "lat": 42.497,
           "lng": -82.891,
@@ -1679,7 +1679,7 @@
           "zip": "21950"
         },
         {
-          "id": "gh-78754",
+          "id": "gh-45471",
           "name": "GoHealth UC \u2014 Taylor",
           "area": "Taylor",
           "type": "Urgent Care",
@@ -1688,7 +1688,7 @@
           "nextAvailable": "Sun 8/30 \u2014 43 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:04:34.388263",
+          "lastChecked": "2026-08-30T22:04:37.966272",
           "address": "22395 Ecorse Rd, Taylor, MI 48180",
           "lat": 42.241,
           "lng": -83.269,
@@ -1717,7 +1717,7 @@
           "zip": "22395"
         },
         {
-          "id": "gh-12782",
+          "id": "gh-98879",
           "name": "GoHealth UC \u2014 West Bloomfield",
           "area": "West Bloomfield",
           "type": "Urgent Care",
@@ -1726,7 +1726,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:04:54.183238",
+          "lastChecked": "2026-08-30T22:04:57.478508",
           "address": "6555 Orchard Lake Rd, West Bloomfield, MI 48322",
           "lat": 42.565,
           "lng": -83.382,
@@ -1755,7 +1755,7 @@
           "zip": "48322"
         },
         {
-          "id": "gh-3096",
+          "id": "gh-10576",
           "name": "GoHealth UC \u2014 Wonderland Village Livonia",
           "area": "Wonderland Village Livonia",
           "type": "Urgent Care",
@@ -1764,7 +1764,7 @@
           "nextAvailable": "Sun 8/30 \u2014 44 slots (first: 8:15 AM)",
           "nextAvailableDate": "Sun 8/30",
           "source": "GoHealth",
-          "lastChecked": "2026-08-30T21:05:13.797188",
+          "lastChecked": "2026-08-30T22:05:17.171445",
           "address": "29321 Plymouth Rd, Livonia, MI 48150",
           "lat": 42.368,
           "lng": -83.353,
@@ -1798,7 +1798,7 @@
       "name": "1st Choice Urgent Care",
       "locations": [
         {
-          "id": "fc-97098",
+          "id": "fc-55258",
           "name": "1st Choice UC \u2014 Bloomfield",
           "area": "Bloomfield",
           "type": "Urgent Care",
@@ -1807,7 +1807,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:57:32.307899",
+          "lastChecked": "2026-08-30T21:57:36.520757",
           "address": "2274 S Telegraph Rd, Bloomfield, MI 48302",
           "lat": 42.61,
           "lng": -83.28,
@@ -1815,7 +1815,7 @@
           "zip": "48302"
         },
         {
-          "id": "fc-21440",
+          "id": "fc-6414",
           "name": "1st Choice UC \u2014 Clinton Township",
           "area": "Clinton Township",
           "type": "Urgent Care",
@@ -1824,7 +1824,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:57:41.619810",
+          "lastChecked": "2026-08-30T21:57:45.758244",
           "address": "44472 Hayes Rd, Clinton Township, MI 48038",
           "lat": 42.582,
           "lng": -82.929,
@@ -1832,7 +1832,7 @@
           "zip": "44472"
         },
         {
-          "id": "fc-26817",
+          "id": "fc-33872",
           "name": "1st Choice UC \u2014 Dearborn East",
           "area": "Dearborn East",
           "type": "Urgent Care",
@@ -1841,7 +1841,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:57:51.113733",
+          "lastChecked": "2026-08-30T21:57:54.992016",
           "address": "12841 Ford Rd, Dearborn, MI 48126",
           "lat": 42.322,
           "lng": -83.176,
@@ -1849,7 +1849,7 @@
           "zip": "12841"
         },
         {
-          "id": "fc-70275",
+          "id": "fc-97745",
           "name": "1st Choice UC \u2014 Dearborn West",
           "area": "Dearborn West",
           "type": "Urgent Care",
@@ -1858,7 +1858,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:00.370685",
+          "lastChecked": "2026-08-30T21:58:04.325863",
           "address": "23455 Michigan Ave, Dearborn, MI 48124",
           "lat": 42.322,
           "lng": -83.176,
@@ -1866,7 +1866,7 @@
           "zip": "23455"
         },
         {
-          "id": "fc-49294",
+          "id": "fc-58970",
           "name": "1st Choice UC \u2014 Garden City",
           "area": "Garden City",
           "type": "Urgent Care",
@@ -1875,7 +1875,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:09.999961",
+          "lastChecked": "2026-08-30T21:58:15.178050",
           "address": "31450 Ford Rd, Garden City, MI 48135",
           "lat": 42.326,
           "lng": -83.331,
@@ -1883,7 +1883,7 @@
           "zip": "31450"
         },
         {
-          "id": "fc-39548",
+          "id": "fc-79532",
           "name": "1st Choice UC \u2014 Livonia",
           "area": "Livonia",
           "type": "Urgent Care",
@@ -1892,7 +1892,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:19.360886",
+          "lastChecked": "2026-08-30T21:58:24.550991",
           "address": "11502 Middlebelt Rd, Livonia, MI 48150",
           "lat": 42.368,
           "lng": -83.353,
@@ -1900,7 +1900,7 @@
           "zip": "11502"
         },
         {
-          "id": "fc-60336",
+          "id": "fc-84977",
           "name": "1st Choice UC \u2014 Macomb",
           "area": "Macomb",
           "type": "Urgent Care",
@@ -1909,7 +1909,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:28.791281",
+          "lastChecked": "2026-08-30T21:58:34.103008",
           "address": "18200 23 Mile Rd, Macomb, MI 48044",
           "lat": 42.672,
           "lng": -82.912,
@@ -1917,7 +1917,7 @@
           "zip": "18200"
         },
         {
-          "id": "fc-21296",
+          "id": "fc-53123",
           "name": "1st Choice UC \u2014 Oxford",
           "area": "Oxford",
           "type": "Urgent Care",
@@ -1926,7 +1926,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:38.707106",
+          "lastChecked": "2026-08-30T21:58:43.815545",
           "address": "72 S Washington St Suite 102, Oxford, MI 48371",
           "lat": 42.82,
           "lng": -83.27,
@@ -1934,7 +1934,7 @@
           "zip": "48371"
         },
         {
-          "id": "fc-38718",
+          "id": "fc-76040",
           "name": "1st Choice UC \u2014 Rochester Hills",
           "area": "Rochester Hills",
           "type": "Urgent Care",
@@ -1943,7 +1943,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:48.040917",
+          "lastChecked": "2026-08-30T21:58:53.103889",
           "address": "2952 S Rochester Rd, Rochester Hills, MI 48307",
           "lat": 42.67,
           "lng": -83.14,
@@ -1951,7 +1951,7 @@
           "zip": "48307"
         },
         {
-          "id": "fc-3214",
+          "id": "fc-67910",
           "name": "1st Choice UC \u2014 Romulus",
           "area": "Romulus",
           "type": "Urgent Care",
@@ -1960,7 +1960,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:58:57.164778",
+          "lastChecked": "2026-08-30T21:59:02.517197",
           "address": "29750 Ecorse Rd, Romulus, MI 48174",
           "lat": 42.222,
           "lng": -83.393,
@@ -1968,7 +1968,7 @@
           "zip": "29750"
         },
         {
-          "id": "fc-89582",
+          "id": "fc-67275",
           "name": "1st Choice UC \u2014 Royal Oak",
           "area": "Royal Oak",
           "type": "Urgent Care",
@@ -1977,7 +1977,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:59:06.639028",
+          "lastChecked": "2026-08-30T21:59:11.683741",
           "address": "4080 Crooks Rd, Royal Oak, MI 48073",
           "lat": 42.52,
           "lng": -83.16,
@@ -1985,7 +1985,7 @@
           "zip": "48073"
         },
         {
-          "id": "fc-69316",
+          "id": "fc-85825",
           "name": "1st Choice UC \u2014 Saint Clair Shores",
           "area": "Saint Clair Shores",
           "type": "Urgent Care",
@@ -1994,7 +1994,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:59:16.078233",
+          "lastChecked": "2026-08-30T21:59:21.017222",
           "address": "25515 Harper Ave, Saint Clair Shores, MI 48081",
           "lat": 42.497,
           "lng": -82.891,
@@ -2002,7 +2002,7 @@
           "zip": "25515"
         },
         {
-          "id": "fc-49090",
+          "id": "fc-17110",
           "name": "1st Choice UC \u2014 Southfield",
           "area": "Southfield",
           "type": "Urgent Care",
@@ -2011,7 +2011,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:59:25.667441",
+          "lastChecked": "2026-08-30T21:59:30.434378",
           "address": "29628 Southfield Rd, Southfield, MI 48076",
           "lat": 42.473,
           "lng": -83.222,
@@ -2019,7 +2019,7 @@
           "zip": "29628"
         },
         {
-          "id": "fc-77310",
+          "id": "fc-82030",
           "name": "1st Choice UC \u2014 Taylor",
           "area": "Taylor",
           "type": "Urgent Care",
@@ -2028,7 +2028,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:59:35.071168",
+          "lastChecked": "2026-08-30T21:59:39.936262",
           "address": "10155 Telegraph Rd, Taylor, MI 48180",
           "lat": 42.241,
           "lng": -83.269,
@@ -2036,7 +2036,7 @@
           "zip": "10155"
         },
         {
-          "id": "fc-92791",
+          "id": "fc-44913",
           "name": "1st Choice UC \u2014 Warren",
           "area": "Warren",
           "type": "Urgent Care",
@@ -2045,7 +2045,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:59:46.640856",
+          "lastChecked": "2026-08-30T21:59:49.565807",
           "address": "25600 Schoenherr Rd, Warren, MI 48089",
           "lat": 42.49,
           "lng": -83.027,
@@ -2053,7 +2053,7 @@
           "zip": "25600"
         },
         {
-          "id": "fc-20324",
+          "id": "fc-16372",
           "name": "1st Choice UC \u2014 Washington",
           "area": "Washington",
           "type": "Urgent Care",
@@ -2062,7 +2062,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T20:59:56.031538",
+          "lastChecked": "2026-08-30T21:59:58.912644",
           "address": "7701 26 Mile Rd, Washington, MI 48094",
           "lat": 42.736,
           "lng": -83.035,
@@ -2070,7 +2070,7 @@
           "zip": "48094"
         },
         {
-          "id": "fc-95171",
+          "id": "fc-76909",
           "name": "1st Choice UC \u2014 Waterford",
           "area": "Waterford",
           "type": "Urgent Care",
@@ -2079,7 +2079,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T21:00:05.228700",
+          "lastChecked": "2026-08-30T22:00:08.279959",
           "address": "2446 Elizabeth Lake, Waterford, MI 48328",
           "lat": 42.62,
           "lng": -83.38,
@@ -2087,7 +2087,7 @@
           "zip": "48328"
         },
         {
-          "id": "fc-3320",
+          "id": "fc-30610",
           "name": "1st Choice UC \u2014 Ypsilanti",
           "area": "Ypsilanti",
           "type": "Urgent Care",
@@ -2096,7 +2096,7 @@
           "nextAvailable": "Walk-in (no online slots)",
           "nextAvailableDate": "",
           "source": "Solv",
-          "lastChecked": "2026-08-30T21:00:14.357886",
+          "lastChecked": "2026-08-30T22:00:17.666454",
           "address": "494 N Hewitt Rd, Ypsilanti, MI 48197",
           "lat": 42.22,
           "lng": -83.62,
@@ -2122,7 +2122,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538010",
+          "lastChecked": "2026-08-30T21:56:20.141731",
           "address": "3200 Walton Boulevard Rochester Hills, MI",
           "lat": 42.659,
           "lng": -83.15,
@@ -2149,7 +2149,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538171",
+          "lastChecked": "2026-08-30T21:56:20.141958",
           "address": "845 S. Lapeer Rd. Orion Charter Township, MI",
           "lat": 42.782,
           "lng": -83.243,
@@ -2176,7 +2176,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:10)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538276",
+          "lastChecked": "2026-08-30T21:56:20.142091",
           "address": "2078 E. Big Beaver Road Troy, MI",
           "lat": 42.606,
           "lng": -83.15,
@@ -2203,7 +2203,7 @@
           "nextAvailable": "Today \u2014 8 slots (next: 07:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538396",
+          "lastChecked": "2026-08-30T21:56:20.142213",
           "address": "15959 Hall Road Macomb, MI",
           "lat": 42.672,
           "lng": -82.912,
@@ -2229,7 +2229,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538489",
+          "lastChecked": "2026-08-30T21:56:20.142321",
           "address": "30955 Woodward Avenue Royal Oak, MI",
           "lat": 42.489,
           "lng": -83.144,
@@ -2256,7 +2256,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538581",
+          "lastChecked": "2026-08-30T21:56:20.142418",
           "address": "50964 Gratiot Ave Chesterfield, MI",
           "lat": 42.673,
           "lng": -82.838,
@@ -2283,7 +2283,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538654",
+          "lastChecked": "2026-08-30T21:56:20.142499",
           "address": "56293 Van Dyke Ave Shelby Township, MI",
           "lat": 42.671,
           "lng": -83.032,
@@ -2310,7 +2310,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538728",
+          "lastChecked": "2026-08-30T21:56:20.142590",
           "address": "6543 Telegraph Road Bloomfield Township, MI",
           "lat": 42.583,
           "lng": -83.245,
@@ -2337,7 +2337,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538808",
+          "lastChecked": "2026-08-30T21:56:20.142685",
           "address": "6549 N. Canton Center Road Canton, MI",
           "lat": 42.309,
           "lng": -83.482,
@@ -2364,7 +2364,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538881",
+          "lastChecked": "2026-08-30T21:56:20.142773",
           "address": "15606 Southfield Road Allen Park, MI",
           "lat": 42.473,
           "lng": -83.222,
@@ -2391,7 +2391,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.538957",
+          "lastChecked": "2026-08-30T21:56:20.142868",
           "address": "43535 Grand River Ave Novi, MI",
           "lat": 42.48,
           "lng": -83.476,
@@ -2418,7 +2418,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539032",
+          "lastChecked": "2026-08-30T21:56:20.142960",
           "address": "42757 Woodward Ave Bloomfield Hills, MI",
           "lat": 42.583,
           "lng": -83.245,
@@ -2445,7 +2445,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539107",
+          "lastChecked": "2026-08-30T21:56:20.143057",
           "address": "34435 Michigan Avenue Wayne, MI",
           "lat": 42.282,
           "lng": -83.386,
@@ -2472,7 +2472,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539187",
+          "lastChecked": "2026-08-30T21:56:20.143160",
           "address": "9870 Telegraph Road Taylor, MI",
           "lat": 42.241,
           "lng": -83.269,
@@ -2499,7 +2499,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539263",
+          "lastChecked": "2026-08-30T21:56:20.143264",
           "address": "43037 Dequindre Road Troy, MI",
           "lat": 42.606,
           "lng": -83.15,
@@ -2526,7 +2526,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539337",
+          "lastChecked": "2026-08-30T21:56:20.143354",
           "address": "6470 Orchard Lake Road West Bloomfield, MI",
           "lat": 42.565,
           "lng": -83.382,
@@ -2553,7 +2553,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539407",
+          "lastChecked": "2026-08-30T21:56:20.143437",
           "address": "25631 Little Mack Avenue St Clair Shores, MI",
           "lat": 42.497,
           "lng": -82.891,
@@ -2580,7 +2580,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539482",
+          "lastChecked": "2026-08-30T21:56:20.143528",
           "address": "23100 Michigan Ave Dearborn, MI",
           "lat": 42.322,
           "lng": -83.176,
@@ -2607,7 +2607,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539557",
+          "lastChecked": "2026-08-30T21:56:20.143620",
           "address": "16525 Fort Street Southgate, MI",
           "lat": 42.214,
           "lng": -83.194,
@@ -2634,7 +2634,7 @@
           "nextAvailable": "Today \u2014 10 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539631",
+          "lastChecked": "2026-08-30T21:56:20.143711",
           "address": "28284 Dequindre Road Warren, MI",
           "lat": 42.49,
           "lng": -83.027,
@@ -2662,7 +2662,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539713",
+          "lastChecked": "2026-08-30T21:56:20.143806",
           "address": "6200 Middlebelt Road Garden City, MI",
           "lat": 42.326,
           "lng": -83.331,
@@ -2689,7 +2689,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539794",
+          "lastChecked": "2026-08-30T21:56:20.143896",
           "address": "19760 Haggerty Road Livonia, MI",
           "lat": 42.368,
           "lng": -83.353,
@@ -2716,7 +2716,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539870",
+          "lastChecked": "2026-08-30T21:56:20.144101",
           "address": "28550 Schoenherr Road Warren, MI",
           "lat": 42.49,
           "lng": -83.027,
@@ -2743,7 +2743,7 @@
           "nextAvailable": "Today \u2014 10 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.539949",
+          "lastChecked": "2026-08-30T21:56:20.144168",
           "address": "27810 Grand River Avenue Farmington Hills, MI",
           "lat": 42.498,
           "lng": -83.377,
@@ -2771,7 +2771,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.540026",
+          "lastChecked": "2026-08-30T21:56:20.144217",
           "address": "18700 Mack Avenue Grosse Pointe Farms, MI",
           "lat": 42.387,
           "lng": -82.906,
@@ -2798,7 +2798,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:03)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.540100",
+          "lastChecked": "2026-08-30T21:56:20.144265",
           "address": "18930 West Road Woodhaven, MI",
           "lat": 42.139,
           "lng": -83.242,
@@ -2825,7 +2825,7 @@
           "nextAvailable": "Today \u2014 9 slots (next: 08:05)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.540170",
+          "lastChecked": "2026-08-30T21:56:20.144315",
           "address": "29263 Orchard Lake Road Farmington Hills, MI",
           "lat": 42.498,
           "lng": -83.377,
@@ -2852,7 +2852,7 @@
           "nextAvailable": "Today \u2014 10 slots (next: 08:10)",
           "nextAvailableDate": "Today",
           "source": "corewellhealthurgentcarese.com",
-          "lastChecked": "2026-08-30T20:56:19.540274",
+          "lastChecked": "2026-08-30T21:56:20.144379",
           "address": "309 E 11 Mile Road Royal Oak, MI",
           "lat": 42.489,
           "lng": -83.144,
