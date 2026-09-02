@@ -52464,8 +52464,25 @@
         "ucWithAvailability": 43,
         "pcpWithAvailability": 41
       }
+    },
+    {
+      "date": "2026-09-02",
+      "timestamp": "2026-09-02T08:59:17.651039",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {},
+      "marketTotals": {
+        "totalUCSameDay": 0,
+        "totalPCPSameDay": 0,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 0,
+        "ucLocationCount": 0,
+        "pcpLocationCount": 0,
+        "ucWithAvailability": 0,
+        "pcpWithAvailability": 0
+      }
     }
   ],
-  "lastUpdated": "2026-08-31T08:37:33.411087",
+  "lastUpdated": "2026-09-02T08:59:17.651056",
   "market": "MI"
 }
