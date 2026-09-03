@@ -52481,8 +52481,42 @@
         "ucWithAvailability": 0,
         "pcpWithAvailability": 0
       }
+    },
+    {
+      "date": "2026-09-03",
+      "timestamp": "2026-09-03T07:55:30.103187",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {
+        "Trinity Health Primary Care": {
+          "sameDaySlots": 231,
+          "nextDaySlots": 141,
+          "locationCount": 41,
+          "ucSlots": 0,
+          "pcpSlots": 231,
+          "locType": "PCP"
+        },
+        "Corewell Health Urgent Care": {
+          "sameDaySlots": 268,
+          "nextDaySlots": 0,
+          "locationCount": 28,
+          "ucSlots": 268,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 268,
+        "totalPCPSameDay": 231,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 141,
+        "ucLocationCount": 28,
+        "pcpLocationCount": 41,
+        "ucWithAvailability": 28,
+        "pcpWithAvailability": 37
+      }
     }
   ],
-  "lastUpdated": "2026-09-02T08:59:17.651056",
+  "lastUpdated": "2026-09-03T07:55:30.103194",
   "market": "MI"
 }
