@@ -67755,8 +67755,58 @@
         "ucWithAvailability": 28,
         "pcpWithAvailability": 0
       }
+    },
+    {
+      "date": "2026-10-19",
+      "timestamp": "2026-10-19T08:53:14.253446",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {
+        "Henry Ford Primary Care": {
+          "sameDaySlots": 74,
+          "nextDaySlots": 108,
+          "locationCount": 34,
+          "ucSlots": 0,
+          "pcpSlots": 74,
+          "locType": "PCP"
+        },
+        "GoHealth / Henry Ford UC": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "locationCount": 15,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "UC"
+        },
+        "1st Choice Urgent Care": {
+          "sameDaySlots": 0,
+          "nextDaySlots": 0,
+          "locationCount": 18,
+          "ucSlots": 0,
+          "pcpSlots": 0,
+          "locType": "UC"
+        },
+        "Corewell Health Urgent Care": {
+          "sameDaySlots": 280,
+          "nextDaySlots": 0,
+          "locationCount": 28,
+          "ucSlots": 280,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 280,
+        "totalPCPSameDay": 74,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 108,
+        "ucLocationCount": 61,
+        "pcpLocationCount": 34,
+        "ucWithAvailability": 28,
+        "pcpWithAvailability": 12
+      }
     }
   ],
-  "lastUpdated": "2026-10-18T08:59:37.554559",
+  "lastUpdated": "2026-10-19T08:53:14.253455",
   "market": "MI"
 }
