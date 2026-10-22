@@ -67913,8 +67913,42 @@
         "ucWithAvailability": 28,
         "pcpWithAvailability": 38
       }
+    },
+    {
+      "date": "2026-10-22",
+      "timestamp": "2026-10-22T08:33:48.365234",
+      "market": "MI",
+      "perCenter": [],
+      "bySystem": {
+        "Henry Ford Primary Care": {
+          "sameDaySlots": 64,
+          "nextDaySlots": 76,
+          "locationCount": 28,
+          "ucSlots": 0,
+          "pcpSlots": 64,
+          "locType": "PCP"
+        },
+        "Corewell Health Urgent Care": {
+          "sameDaySlots": 280,
+          "nextDaySlots": 0,
+          "locationCount": 28,
+          "ucSlots": 280,
+          "pcpSlots": 0,
+          "locType": "UC"
+        }
+      },
+      "marketTotals": {
+        "totalUCSameDay": 280,
+        "totalPCPSameDay": 64,
+        "totalUCNextDay": 0,
+        "totalPCPNextDay": 76,
+        "ucLocationCount": 28,
+        "pcpLocationCount": 28,
+        "ucWithAvailability": 28,
+        "pcpWithAvailability": 13
+      }
     }
   ],
-  "lastUpdated": "2026-10-21T09:14:15.016850",
+  "lastUpdated": "2026-10-22T08:33:48.365242",
   "market": "MI"
 }
